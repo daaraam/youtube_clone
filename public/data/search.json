@@ -1,0 +1,850 @@
+{
+	"kind": "youtube#searchListResponse",
+	"etag": "BeIR47Z5i4r6O75pTo1X-KOsVMg",
+	"nextPageToken": "CBkQAA",
+	"regionCode": "US",
+	"pageInfo": {
+		"totalResults": 1000000,
+		"resultsPerPage": 25
+	},
+	"items": [
+		{
+			"kind": "youtube#searchResult",
+			"etag": "fxLbtG9TpReRwyiuPHxJYUek6SE",
+			"id": {
+				"kind": "youtube#channel",
+				"channelId": "UCfkXDY7vwkcJ8ddFGz8KusA"
+			},
+			"snippet": {
+				"publishedAt": "2012-11-16T08:20:35Z",
+				"channelId": "UCfkXDY7vwkcJ8ddFGz8KusA",
+				"title": "SEVENTEEN",
+				"description": "SEVENTEEN Official Youtube #세븐틴 공식 유튜브.",
+				"thumbnails": {
+					"default": {
+						"url": "https://yt3.ggpht.com/rZrPk_5wzTppcwthTc9y5TmBWq4GGf-xPtndwWS5T3Y5Cg43uzRTpkoAntBzf-LVgBCYZbG-Yg=s88-c-k-c0xffffffff-no-rj-mo"
+					},
+					"medium": {
+						"url": "https://yt3.ggpht.com/rZrPk_5wzTppcwthTc9y5TmBWq4GGf-xPtndwWS5T3Y5Cg43uzRTpkoAntBzf-LVgBCYZbG-Yg=s240-c-k-c0xffffffff-no-rj-mo"
+					},
+					"high": {
+						"url": "https://yt3.ggpht.com/rZrPk_5wzTppcwthTc9y5TmBWq4GGf-xPtndwWS5T3Y5Cg43uzRTpkoAntBzf-LVgBCYZbG-Yg=s800-c-k-c0xffffffff-no-rj-mo"
+					}
+				},
+				"channelTitle": "SEVENTEEN",
+				"liveBroadcastContent": "none",
+				"publishTime": "2012-11-16T08:20:35Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "0kxvzlj39kZnw59pwlQOAPxpDCI",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "-GQg25oP0S4"
+			},
+			"snippet": {
+				"publishedAt": "2023-04-24T08:58:11Z",
+				"channelId": "UC3IZKseVpdzPSBaWxBxundA",
+				"title": "SEVENTEEN (세븐틴) &#39;손오공&#39; Official MV",
+				"description": "SEVENTEEN (세븐틴) '손오공' Official MV #SEVENTEEN #세븐틴 #FML #손오공 #Super Credits: Production｜OUI PRODUCTION ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/-GQg25oP0S4/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/-GQg25oP0S4/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/-GQg25oP0S4/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "HYBE LABELS",
+				"liveBroadcastContent": "none",
+				"publishTime": "2023-04-24T08:58:11Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "t4H9xZb-UoPruU86hCLRxrJ1wdo",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "RnO0HhILXi4"
+			},
+			"snippet": {
+				"publishedAt": "2022-07-06T14:58:09Z",
+				"channelId": "UC3IZKseVpdzPSBaWxBxundA",
+				"title": "SVT LEADERS &#39;CHEERS&#39; Official MV",
+				"description": "SVT LEADERS 'CHEERS' Official MV Credits: PRODUCTION｜VM PROJECT ARCHITECTURE DIRECTOR｜BEOMJIN PKA ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/RnO0HhILXi4/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/RnO0HhILXi4/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/RnO0HhILXi4/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "HYBE LABELS",
+				"liveBroadcastContent": "none",
+				"publishTime": "2022-07-06T14:58:09Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "q6AKXzEI3Us15O57JDhlc0Zxf0g",
+			"id": {
+				"kind": "youtube#playlist",
+				"playlistId": "PLk_UmMfvZDx21Z9eEQ9DcIlUfZp1uwEup"
+			},
+			"snippet": {
+				"publishedAt": "2021-02-24T11:39:56Z",
+				"channelId": "UCfkXDY7vwkcJ8ddFGz8KusA",
+				"title": "GOING SEVENTEEN",
+				"description": "",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/A7TYMNqF-tY/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/A7TYMNqF-tY/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/A7TYMNqF-tY/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "SEVENTEEN",
+				"liveBroadcastContent": "none",
+				"publishTime": "2021-02-24T11:39:56Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "Xka_umgWzO_s501e2MZGtkg3hD4",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "9kpuOoIh3wU"
+			},
+			"snippet": {
+				"publishedAt": "2023-05-07T14:59:55Z",
+				"channelId": "UC3IZKseVpdzPSBaWxBxundA",
+				"title": "SEVENTEEN (세븐틴) &#39;F*ck My Life&#39; Official MV",
+				"description": "SEVENTEEN (세븐틴) 'F*ck My Life' Official MV CREDITS: PRODUCTION | BANGJAEYEOB FILM DIRECTOR | BANG JAEYEOB ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/9kpuOoIh3wU/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/9kpuOoIh3wU/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/9kpuOoIh3wU/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "HYBE LABELS",
+				"liveBroadcastContent": "none",
+				"publishTime": "2023-05-07T14:59:55Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "6Xgv_t1gyso_oTup5wuCZyQeWuQ",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "gRnuFC4Ualw"
+			},
+			"snippet": {
+				"publishedAt": "2022-05-27T03:58:12Z",
+				"channelId": "UC3IZKseVpdzPSBaWxBxundA",
+				"title": "SEVENTEEN (세븐틴) &#39;HOT&#39; Official MV",
+				"description": "SEVENTEEN (세븐틴) 'HOT' Official MV Credits: PRODUCTION｜RIGEND FILM DIRECTOR｜RIMA YOON, DONGJU JANG ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/gRnuFC4Ualw/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/gRnuFC4Ualw/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/gRnuFC4Ualw/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "HYBE LABELS",
+				"liveBroadcastContent": "none",
+				"publishTime": "2022-05-27T03:58:12Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "WztfxIB2-n440mVmT2NWFsg2lKA",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "VCDWg0ljbFQ"
+			},
+			"snippet": {
+				"publishedAt": "2022-07-18T08:58:10Z",
+				"channelId": "UC3IZKseVpdzPSBaWxBxundA",
+				"title": "SEVENTEEN (세븐틴) &#39;_WORLD&#39; Official MV",
+				"description": "SEVENTEEN (세븐틴) '_WORLD' Official MV Credits: Production｜OUI PRODUCTION Director｜Oui Kim Producer｜Yeonjin Kim ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/VCDWg0ljbFQ/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/VCDWg0ljbFQ/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/VCDWg0ljbFQ/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "HYBE LABELS",
+				"liveBroadcastContent": "none",
+				"publishTime": "2022-07-18T08:58:10Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "mVRBhubYXZ3dpCxTYIm3PKVZusw",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "Jz6i2gIoPNc"
+			},
+			"snippet": {
+				"publishedAt": "2023-05-05T14:00:11Z",
+				"channelId": "UCQ2O-iftmnlfrBuNsUUTofQ",
+				"title": "[sub]🧳💎EP.1-1ㅣ세븐틴 13명 완전체로 입장🎉 십오야 집안에 경사났네~ | 🧳출장십오야2 x 세븐틴",
+				"description": "출장십오야2 #세븐틴 #seventeen 출장십오야 세븐틴편은 5/5(금)부터 3주간 채널십오야 유튜브에서 매주 밤 11시에 공개됩니다   ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/Jz6i2gIoPNc/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/Jz6i2gIoPNc/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/Jz6i2gIoPNc/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "채널 십오야",
+				"liveBroadcastContent": "none",
+				"publishTime": "2023-05-05T14:00:11Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "wRhrWelDNcMSnzRCNaxzqzUQmSk",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "ADx_3gfF3nA"
+			},
+			"snippet": {
+				"publishedAt": "2023-07-30T17:47:17Z",
+				"channelId": "UCVW0-2acfdOsoCIsDrbKyhA",
+				"title": "Seventeen Convert their staffs wedding into their concert 🤣 #seventeen #svt #shortsvideo #viral",
+				"description": "",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/ADx_3gfF3nA/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/ADx_3gfF3nA/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/ADx_3gfF3nA/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "saythename 17",
+				"liveBroadcastContent": "none",
+				"publishTime": "2023-07-30T17:47:17Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "6MmdYAVpGynu0WkHzxKWcsq8OWs",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "MruIgj0yZNE"
+			},
+			"snippet": {
+				"publishedAt": "2023-04-28T21:15:00Z",
+				"channelId": "UCxAICW_LdkfFYwTqTHHE0vg",
+				"title": "SEVENTEEN Performs &#39;Super&#39; | #MTVFreshOut",
+				"description": "SEVENTEEN performs 'Super' on #MTVFreshOut. Paramount+ is here! Stream all your favorite shows now on Paramount+.",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/MruIgj0yZNE/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/MruIgj0yZNE/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/MruIgj0yZNE/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "MTV",
+				"liveBroadcastContent": "none",
+				"publishTime": "2023-04-28T21:15:00Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "v2ehHgfRaG4uiW3D-G0xSSNwmOA",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "AIyzEeoNay0"
+			},
+			"snippet": {
+				"publishedAt": "2023-05-26T08:25:55Z",
+				"channelId": "UCfkXDY7vwkcJ8ddFGz8KusA",
+				"title": "[SPECIAL VIDEO] SEVENTEEN(세븐틴) - ‘April shower’ Live Clip",
+				"description": "[SPECIAL VIDEO] SEVENTEEN(세븐틴) - 'April shower' Live Clip #SEVENTEEN #세븐틴 #Aprilshower #SVT_8th_Anniversary ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/AIyzEeoNay0/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/AIyzEeoNay0/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/AIyzEeoNay0/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "SEVENTEEN",
+				"liveBroadcastContent": "none",
+				"publishTime": "2023-05-26T08:25:55Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "GSGiBrNlRhzP--pQtsrtsuWE2LU",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "UF0JiR3oTH8"
+			},
+			"snippet": {
+				"publishedAt": "2023-05-19T14:00:11Z",
+				"channelId": "UCQ2O-iftmnlfrBuNsUUTofQ",
+				"title": "[sub]🧳💎EP.3-1 | 소원 말하랬더니 나피디 멘탈 가져가버린 세봉이들 | 🧳출장십오야2 x 세븐틴",
+				"description": "출장십오야2 #세븐틴 #seventeen 출장십오야 세븐틴편은 5/5(금)부터 3주간 채널십오야 유튜브에서 매주 밤 11시에 공개됩니다   ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/UF0JiR3oTH8/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/UF0JiR3oTH8/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/UF0JiR3oTH8/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "채널 십오야",
+				"liveBroadcastContent": "none",
+				"publishTime": "2023-05-19T14:00:11Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "-CZfFQVHAxlNis9dMGWhItK79-0",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "WpuatuzSDK4"
+			},
+			"snippet": {
+				"publishedAt": "2021-10-22T03:58:09Z",
+				"channelId": "UC3IZKseVpdzPSBaWxBxundA",
+				"title": "SEVENTEEN (세븐틴) &#39;Rock with you&#39; Official MV",
+				"description": "SEVENTEEN (세븐틴) 'Rock with you' Official MV Credits: PRODUCTION｜RIGEND FILM DIRECTOR｜RIMA YOON, DONGJU ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/WpuatuzSDK4/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/WpuatuzSDK4/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/WpuatuzSDK4/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "HYBE LABELS",
+				"liveBroadcastContent": "none",
+				"publishTime": "2021-10-22T03:58:09Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "XzdPHg-jiQOD21nDRSD1cwR0MZ8",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "A7TYMNqF-tY"
+			},
+			"snippet": {
+				"publishedAt": "2023-07-26T11:58:08Z",
+				"channelId": "UCfkXDY7vwkcJ8ddFGz8KusA",
+				"title": "[GOING SEVENTEEN] EP.86 부밀리가 떴다 #2 (BOOmily Outing #2)",
+				"description": "[GOING SEVENTEEN] EP.86 부밀리가 떴다 #2 (BOOmily Outing #2) \"호시 하고싶은 거 다 해\" 오늘은 호시가 '부밀리가 떴다'의 요~ ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/A7TYMNqF-tY/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/A7TYMNqF-tY/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/A7TYMNqF-tY/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "SEVENTEEN",
+				"liveBroadcastContent": "none",
+				"publishTime": "2023-07-26T11:58:08Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "8IFd-hLb2fETJv0zcrDJXannEKg",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "EBz5cxvj5VY"
+			},
+			"snippet": {
+				"publishedAt": "2021-12-08T17:00:04Z",
+				"channelId": "UCIsbLox_y9dCIMLd8tdC6qg",
+				"title": "How Well Does SEVENTEEN (세븐틴) Know Each Other? | Vanity Fair Game Show",
+				"description": "Seventeen (SVT) tests who knows one another best in Vanity Fair's Game Show. They tour together, sing together, and eat ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/EBz5cxvj5VY/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/EBz5cxvj5VY/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/EBz5cxvj5VY/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "Vanity Fair",
+				"liveBroadcastContent": "none",
+				"publishTime": "2021-12-08T17:00:04Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "y6u47C4nuh6G_ogvMR5pGF8Zyqo",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "94ztm77lKBo"
+			},
+			"snippet": {
+				"publishedAt": "2022-07-24T14:59:57Z",
+				"channelId": "UC3IZKseVpdzPSBaWxBxundA",
+				"title": "SVT LEADERS &#39;CHEERS&#39; Official MV (Choreography Version)",
+				"description": "SVT LEADERS 'CHEERS' Official MV (Choreography Version) Credits: PRODUCTION｜VM PROJECT ARCHITECTURE ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/94ztm77lKBo/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/94ztm77lKBo/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/94ztm77lKBo/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "HYBE LABELS",
+				"liveBroadcastContent": "none",
+				"publishTime": "2022-07-24T14:59:57Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "00xTV-vVdaaqssslBRSrANC_wzA",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "38dIHkJMtHw"
+			},
+			"snippet": {
+				"publishedAt": "2023-04-28T09:24:56Z",
+				"channelId": "UC5BMQOsAB8hKUyHu9KI6yig",
+				"title": "Super - SEVENTEEN [Music Bank] | KBS WORLD TV 230428",
+				"description": "MusicBank #뮤직뱅크 #ミュージックバンク #音乐银行 #HongEunChae #LESSERAFIM #LeeChaeMin Fri 17:05 | Re-run : Sun ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/38dIHkJMtHw/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/38dIHkJMtHw/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/38dIHkJMtHw/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "KBS WORLD TV",
+				"liveBroadcastContent": "none",
+				"publishTime": "2023-04-28T09:24:56Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "CzHoqVWikRgdQb5mZYDCVVs4nDc",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "PWfZsrlonGA"
+			},
+			"snippet": {
+				"publishedAt": "2023-03-26T10:45:00Z",
+				"channelId": "UC_YhP0zDrE0pjBNdXCXrVFA",
+				"title": "SVT Vocal team guess about me! Seventeen loves to make fun of each other",
+				"description": "The people who are funny eventually win in their circle... The born-to-be entertainers Seventeen's Guess About Me Your 'Like' ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/PWfZsrlonGA/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/PWfZsrlonGA/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/PWfZsrlonGA/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "K-contents Voyage",
+				"liveBroadcastContent": "none",
+				"publishTime": "2023-03-26T10:45:00Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "vUioHVlK1l244hUzPM_JrnRdVis",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "0HcbZmIyta0"
+			},
+			"snippet": {
+				"publishedAt": "2022-10-10T23:41:27Z",
+				"channelId": "UCtlcHVCXmoV9_gY6OVkjF5Q",
+				"title": "seventeen moments that make me audibly laugh (세븐틴)",
+				"description": "hi i hope you like svt as much as i If you wanna buy us coffee while we edit hehe: https://ko-fi.com/seokjinmyfeels IMPORTANT ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/0HcbZmIyta0/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/0HcbZmIyta0/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/0HcbZmIyta0/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "seokjin myfeels",
+				"liveBroadcastContent": "none",
+				"publishTime": "2022-10-10T23:41:27Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "3vIrn7w61I7fHNIJrgn5-qI00lM",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "HdZdxocqzq4"
+			},
+			"snippet": {
+				"publishedAt": "2020-06-22T09:00:02Z",
+				"channelId": "UC3IZKseVpdzPSBaWxBxundA",
+				"title": "SEVENTEEN (세븐틴) &#39;Left &amp; Right&#39; Official MV",
+				"description": "SEVENTEEN (세븐틴) 'Left & Right' Official MV 세븐틴 7번째 미니 앨범 [헹가래]는 정규 3집 [An Ode]에서 마주했던 '두려움'의 감정 ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/HdZdxocqzq4/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/HdZdxocqzq4/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/HdZdxocqzq4/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "HYBE LABELS",
+				"liveBroadcastContent": "none",
+				"publishTime": "2020-06-22T09:00:02Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "y_KWOLMViNVUOaoqnlQMVz_7DyA",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "pMtQhkYLFlw"
+			},
+			"snippet": {
+				"publishedAt": "2023-06-19T02:00:27Z",
+				"channelId": "UCO1m0qPuRR4HSFtirAeoe9A",
+				"title": "SEVENTEEN and their ✨chaotic✨ friendship [FML era Part 2] (svt moments)",
+				"description": "Thank you FASHION CHINGU for sponsoring this video! The #1 KPOP fashion store! Click the link below: ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/pMtQhkYLFlw/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/pMtQhkYLFlw/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/pMtQhkYLFlw/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "yeontannie yt",
+				"liveBroadcastContent": "none",
+				"publishTime": "2023-06-19T02:00:27Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "B7ksx9IpqiSO2Vwr_3_o3VS7zU4",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "XHgJCzhh2QY"
+			},
+			"snippet": {
+				"publishedAt": "2023-05-31T11:58:12Z",
+				"channelId": "UCfkXDY7vwkcJ8ddFGz8KusA",
+				"title": "[GOING SEVENTEEN] EP.78 화이트에서 할 수 있는 모든 것 #2 (Everything Possible in the White Zone #2)",
+				"description": "[GOING SEVENTEEN] EP.78 화이트에서 할 수 있는 모든 것 #2 (Everything Possible in the White Zone #2) 절친만 12명인 세븐틴이 ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/XHgJCzhh2QY/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/XHgJCzhh2QY/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/XHgJCzhh2QY/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "SEVENTEEN",
+				"liveBroadcastContent": "none",
+				"publishTime": "2023-05-31T11:58:12Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "lCMXGHc-bOTL4dasVe3gwdQX5b4",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "Mv2q0JAw0dA"
+			},
+			"snippet": {
+				"publishedAt": "2023-05-12T14:00:07Z",
+				"channelId": "UCQ2O-iftmnlfrBuNsUUTofQ",
+				"title": "[sub]🧳💎EP.2-1ㅣ방금 오픈했는데,, 영혼과 함께 탈탈 털려버린 손오공 상점 | 🧳출장십오야2 x 세븐틴",
+				"description": "출장십오야2 #세븐틴 #seventeen 출장십오야 세븐틴편은 5/5(금)부터 3주간 채널십오야 유튜브에서 매주 밤 11시에 공개됩니다   ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/Mv2q0JAw0dA/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/Mv2q0JAw0dA/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/Mv2q0JAw0dA/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "채널 십오야",
+				"liveBroadcastContent": "none",
+				"publishTime": "2023-05-12T14:00:07Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "KGCNFmcAX_HVpQQxHapXGZAg08o",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "8ca0xEJH9wY"
+			},
+			"snippet": {
+				"publishedAt": "2022-05-31T10:00:09Z",
+				"channelId": "UCtCiO5t2voB14CmZKTkIzPQ",
+				"title": "세븐틴(SEVENTEEN)의 킬링보이스를 라이브로! - 박수, 예쁘다, 울고 싶지 않아, A-TEEN, HOT, 아낀다, 어쩌나, Left &amp; Right | 딩고뮤직",
+				"description": "디.아이.엔.지.오 X 세븐틴 콜라보레이션 13명 완전체의 HOT한 킬링보이스 그냥 가보자는 거야   [선곡리스트] 00:00 오프닝 00:31 ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/8ca0xEJH9wY/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/8ca0xEJH9wY/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/8ca0xEJH9wY/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "딩고 뮤직 / dingo music",
+				"liveBroadcastContent": "none",
+				"publishTime": "2022-05-31T10:00:09Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "vc67b1brl0I1PfYoMCGnSY0CGto",
+			"id": {
+				"kind": "youtube#channel",
+				"channelId": "UCG-Et3jfinzlQql4uEYjAVw"
+			},
+			"snippet": {
+				"publishedAt": "2006-01-25T17:40:16Z",
+				"channelId": "UCG-Et3jfinzlQql4uEYjAVw",
+				"title": "SVT",
+				"description": "Trailers, intervjuer, humorklipp & bloopers från SVTs program. På SVT Play kan du streama fler än 1000 program - hitta din favorit ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://yt3.ggpht.com/e0r1VppIsDklPpTguDesH4QGKQyRV-6E1VMqMUbGmSL1mVLj3Epc4R8nuxCczgMp7PL4G9Vuz1Q=s88-c-k-c0xffffffff-no-rj-mo"
+					},
+					"medium": {
+						"url": "https://yt3.ggpht.com/e0r1VppIsDklPpTguDesH4QGKQyRV-6E1VMqMUbGmSL1mVLj3Epc4R8nuxCczgMp7PL4G9Vuz1Q=s240-c-k-c0xffffffff-no-rj-mo"
+					},
+					"high": {
+						"url": "https://yt3.ggpht.com/e0r1VppIsDklPpTguDesH4QGKQyRV-6E1VMqMUbGmSL1mVLj3Epc4R8nuxCczgMp7PL4G9Vuz1Q=s800-c-k-c0xffffffff-no-rj-mo"
+					}
+				},
+				"channelTitle": "SVT",
+				"liveBroadcastContent": "upcoming",
+				"publishTime": "2006-01-25T17:40:16Z"
+			}
+		}
+	]
+}
