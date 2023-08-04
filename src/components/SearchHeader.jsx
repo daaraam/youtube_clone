@@ -9,32 +9,35 @@ export default function SearchHeader() {
 	const navigate = useNavigate();
 	const submitHandler = e => {
 		e.preventDefault();
-		navigate(`videos/${text}`);
+		navigate(`/videos/${text}`);
 		setText('');
 	};
 
 	return (
-		<header className="w-full flex justify-between p-4 text-2xl border-b border-zinc-600 mb-4">
+		<header className="flex justify-between w-full p-4 mb-4 text-2xl ">
 			<Link to="/" className="flex items-center">
 				<BsYoutube className="text-4xl text-brand" />
-				<p className="font-bold ml-2 text-3xl">YouTube</p>
+				<p className="ml-2 text-3xl font-bold">YouTube</p>
 			</Link>
 
-			<form onSubmit={submitHandler} className="flex justify-center items-center gap-x-4 w-full">
+			<form
+				onSubmit={submitHandler}
+				className="flex items-center justify-center w-5/12 border gap-x-4 rounded-3xl border-zinc-300 "
+			>
 				<input
-					className="flex items-center p-2 rounded-lg w-7/12 border-black border-current-gray bg-gray-100"
+					className="flex items-center w-full p-2 text-xl outline-blue-500 rounded-3xl"
 					type="text"
 					value={text}
-					placeholder="Search..."
+					placeholder="검색"
 					onChange={e => setText(e.target.value)}
 				/>
-				<BsSearch onClick={submitHandler} className="cursor-pointer" />
+				<BsSearch onClick={submitHandler} className="mr-4 cursor-pointer" />
 			</form>
 
-			<article className="flex justify-center items-center gap-2">
-				<FaRegBell className="cursor-pointer" />
-				<RxAvatar className="cursor-pointer" />
-			</article>
+			<div className="flex items-center justify-center gap-7">
+				<FaRegBell className="cursor-pointer" size={25} />
+				<RxAvatar className="cursor-pointer" size={30} />
+			</div>
 		</header>
 	);
 }

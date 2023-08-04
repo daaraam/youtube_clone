@@ -4,53 +4,6 @@
 	"items": [
 		{
 			"kind": "youtube#video",
-			"etag": "_GeloR8AEm8CGTQ8vGgIblByehs",
-			"id": "dug56u8NN7g",
-			"snippet": {
-				"publishedAt": "2023-07-31T13:00:24Z",
-				"channelId": "UCvC4D8onUfXzvjTOM-dBfEA",
-				"title": "Marvel Studios’ Loki Season 2 | Official Trailer | Disney+",
-				"description": "It’s almost time. ⏰\n \nWatch the brand-new trailer for Marvel Studios’ Loki Season 2, an Original series, streaming October 6 on Disney+.\n\n► Watch Marvel on Disney+: https://bit.ly/2XyBSIW\n► Subscribe to Marvel on YouTube: http://bit.ly/WeO3YJ\n\nFollow Marvel on Twitter: ‪https://twitter.com/marvel\nLike Marvel on Facebook: ‪https://www.facebook.com/marvel\nWatch Marvel on Twitch: https://www.twitch.tv/marvel\n\nReward your Marvel fandom by joining Marvel Insider!\nEarn points, then redeem for awesome rewards.\nTerms and conditions apply. \nLearn more at https://www.marvel.com/insider?Osocial=YT&CID=MarvelInsider\n\nFor even more news, stay tuned to:\nTumblr: ‪http://marvelentertainment.tumblr.com/\nInstagram: https://www.instagram.com/marvel\nPinterest: ‪http://pinterest.com/marvelofficial\nReddit: http://reddit.com/u/marvel-official",
-				"thumbnails": {
-					"default": {
-						"url": "https://i.ytimg.com/vi/dug56u8NN7g/default.jpg",
-						"width": 120,
-						"height": 90
-					},
-					"medium": {
-						"url": "https://i.ytimg.com/vi/dug56u8NN7g/mqdefault.jpg",
-						"width": 320,
-						"height": 180
-					},
-					"high": {
-						"url": "https://i.ytimg.com/vi/dug56u8NN7g/hqdefault.jpg",
-						"width": 480,
-						"height": 360
-					},
-					"standard": {
-						"url": "https://i.ytimg.com/vi/dug56u8NN7g/sddefault.jpg",
-						"width": 640,
-						"height": 480
-					},
-					"maxres": {
-						"url": "https://i.ytimg.com/vi/dug56u8NN7g/maxresdefault.jpg",
-						"width": 1280,
-						"height": 720
-					}
-				},
-				"channelTitle": "Marvel Entertainment",
-				"tags": ["marvel", "comics"],
-				"categoryId": "24",
-				"liveBroadcastContent": "none",
-				"localized": {
-					"title": "Marvel Studios’ Loki Season 2 | Official Trailer | Disney+",
-					"description": "It’s almost time. ⏰\n \nWatch the brand-new trailer for Marvel Studios’ Loki Season 2, an Original series, streaming October 6 on Disney+.\n\n► Watch Marvel on Disney+: https://bit.ly/2XyBSIW\n► Subscribe to Marvel on YouTube: http://bit.ly/WeO3YJ\n\nFollow Marvel on Twitter: ‪https://twitter.com/marvel\nLike Marvel on Facebook: ‪https://www.facebook.com/marvel\nWatch Marvel on Twitch: https://www.twitch.tv/marvel\n\nReward your Marvel fandom by joining Marvel Insider!\nEarn points, then redeem for awesome rewards.\nTerms and conditions apply. \nLearn more at https://www.marvel.com/insider?Osocial=YT&CID=MarvelInsider\n\nFor even more news, stay tuned to:\nTumblr: ‪http://marvelentertainment.tumblr.com/\nInstagram: https://www.instagram.com/marvel\nPinterest: ‪http://pinterest.com/marvelofficial\nReddit: http://reddit.com/u/marvel-official"
-				},
-				"defaultAudioLanguage": "en"
-			}
-		},
-		{
-			"kind": "youtube#video",
 			"etag": "TVw-59cn7oe08AD5LMx1ueFliow",
 			"id": "wID6G0cq5W4",
 			"snippet": {
