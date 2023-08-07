@@ -2,12 +2,12 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { formatAgo } from '../util/date';
 
-export default function VideoCard({ video }) {
-	const { thumbnails, title, channelTitle, publishedAt } = video.snippet;
+export default function VideoCard({ videoItem }) {
+	const { thumbnails, title, channelTitle, publishedAt } = videoItem.snippet;
 	const navigateDetail = useNavigate();
 
 	const goDetailPage = () => {
-		navigateDetail(`/videos/watch/${video.id}`, { state: { video } });
+		navigateDetail(`/videos/watch/${videoItem.id}`, { state: { videoItem } });
 	};
 
 	return (

@@ -6,10 +6,10 @@ import { formatAgo } from '../util/date';
 
 export default function VideoDetail() {
 	const {
-		state: { video },
+		state: { videoItem },
 	} = useLocation();
-	console.log('videoState', video);
-	const { title, channelId, channelTitle, description, publishedAt } = video.snippet;
+	console.log('videoState', videoItem);
+	const { title, channelId, channelTitle, description, publishedAt } = videoItem.snippet;
 	// 여기서 아는 정보 :
 	return (
 		<section>
@@ -19,7 +19,7 @@ export default function VideoDetail() {
 					type="text/html"
 					width="100%"
 					height="640"
-					src={`http://www.youtube.com/embed/${video.id}`}
+					src={`http://www.youtube.com/embed/${videoItem.id}`}
 					frameborder="0"
 				/>
 				<div>
@@ -32,7 +32,7 @@ export default function VideoDetail() {
 				</div>
 			</article>
 			<section>
-				<RelatedVideos id={video.id} />
+				<RelatedVideos id={videoItem.id} />
 			</section>
 		</section>
 	);

@@ -9,6 +9,8 @@ export default function Videos() {
 	// const youtube = useContext(YoutubeApiContext);
 	const { keyword } = useParams();
 	const { isLoading, isError, data } = useQuery(['videos', keyword], () => youtube.search(keyword));
+	// search와 popular데이터를 다 여기서 관리하고 있음.
+	// youtube와 json_youtube의 여부는 YoutubeApiContext에서 useYoutubeApi를 생성하면서 관리하고 있음.
 
 	return (
 		<>
@@ -18,8 +20,8 @@ export default function Videos() {
 			{isError && <p>에러가 발생했어요 😖</p>}
 			{data && (
 				<ul className="grid grid-cols-1 gap-2 gap-y-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-col-5">
-					{data.map(video => (
-						<VideoCard key={video.id} video={video} />
+					{data.map(videoItem => (
+						<VideoCard key={videoItem.id} videoItem={videoItem} />
 					))}
 				</ul>
 			)}

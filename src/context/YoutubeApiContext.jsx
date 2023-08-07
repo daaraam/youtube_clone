@@ -8,6 +8,7 @@ export const YoutubeApiContext = createContext();
 const youtube = new JsonYoutube(); //JSON데이터 사용
 // const youtube = new Youtube(); //실제 API 사용
 
+// App.js에서 SearchHeader를 제외한 전체에 씌워줌 = api 데이터를 받아올 영역 지정
 export function YoutubeApiProvider({ children }) {
 	return <YoutubeApiContext.Provider value={{ youtube }}>{children}</YoutubeApiContext.Provider>;
 }
