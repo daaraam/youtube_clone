@@ -4,13 +4,13 @@ import { BsFillMicFill, BsSearch, BsYoutube } from 'react-icons/bs';
 import { FaRegBell } from 'react-icons/fa';
 import { GoHomeFill } from 'react-icons/go';
 import { ImDrawer, ImMusic } from 'react-icons/im';
-import { RxAvatar } from 'react-icons/rx';
 import { TbBrandYoutubeKids } from 'react-icons/tb';
 import { Link, useNavigate } from 'react-router-dom';
 import { styled } from 'styled-components';
 import Icon from './Icon';
 import MenuIcon from './MenuIcon';
 import SpeechRecognitionApp from './SpeechRecognition';
+import User from './User';
 
 export default function SearchHeader() {
 	const [text, setText] = useState('');
@@ -87,7 +87,8 @@ export default function SearchHeader() {
 
 			<div className="flex items-center justify-center gap-7">
 				<Icon icon={<FaRegBell className="cursor-pointer " size={25} />} />
-				<RxAvatar className="cursor-pointer" size={30} />
+				{/* <RxAvatar className="cursor-pointer" size={30} /> */}
+				<User />
 			</div>
 		</header>
 	);
