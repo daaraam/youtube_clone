@@ -9,6 +9,7 @@ export default function VideoDetail() {
 		state: { videoItem },
 	} = useLocation();
 	console.log('videoState', videoItem);
+
 	const { title, channelId, channelTitle, description, publishedAt } = videoItem.snippet;
 	// 여기서 아는 정보 :
 	return (
@@ -26,7 +27,6 @@ export default function VideoDetail() {
 					<h2 className="text-2xl font-bold">{title}</h2>
 					<ChannelInfo id={channelId} name={channelTitle} />
 					{/* ChannelInfo라는 컴포넌트에 전달해줄 정보 */}
-
 					<p>{formatAgo(publishedAt, 'ko')}</p>
 					<pre className="line-clamp-3">{description}</pre>
 				</div>
