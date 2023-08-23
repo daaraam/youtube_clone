@@ -14,7 +14,7 @@ export default function Videos() {
 
 	return (
 		<>
-			<div>Videos {keyword ? `🔍${keyword}` : '인기동영상🔥'}</div>
+			<div>{keyword ? `🔍${keyword}` : '메인페이지'}</div>
 			{isLoading && <p>Loading...</p>}
 			{/* 여기에 스켈레톤 넣고싶음! */}
 			{isError && <p>에러가 발생했어요 😖</p>}

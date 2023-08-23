@@ -1,9 +1,19 @@
 import React from 'react';
 
+import { styled } from 'styled-components';
+
 export default function Icon({ icon, onClick }) {
-	return (
-		<button className="flex items-center px-2 py-3 mx-1 rounded-full hover:bg-slate-200" onClick={onClick}>
-			{icon}
-		</button>
-	);
+	return <IconBtn onClick={onClick}>{icon}</IconBtn>;
 }
+
+const IconBtn = styled.button`
+	display: flex;
+	align-items: center;
+	padding: 0.5rem;
+	margin: 0.25rem;
+	border-radius: 100%;
+	&:hover {
+		background-color: #eeebeb;
+	}
+	cursor: pointer;
+`;
