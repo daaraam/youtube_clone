@@ -5,6 +5,24 @@
   font-style: normal;
 }
 
+:root {
+  --color-bg: white;
+  --color-txt: black;
+  --color-hover: #eeebeb;
+  --color-accent: #f2abab;
+  --color-border: #d3d3d3;
+  @apply bg-white;
+}
+
+html.dark {
+  --color-bg: black;
+  --color-txt: white;
+  --color-hover: #797979;
+  --color-accent: #f2abab;
+  --color-border: hsl(0, 1%, 22%);
+  @apply bg-black
+}
+
 body {
   margin: 0;
   font-family: 'Pretendard-Regular';
@@ -12,7 +30,6 @@ body {
   height: 100vh;
   padding: 0 2vw;
   @apply flex flex-col items-center;
-  @apply text-black bg-white;
 }
 
 #root {

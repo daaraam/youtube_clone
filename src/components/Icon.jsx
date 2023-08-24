@@ -13,7 +13,7 @@ const IconBtn = styled.button`
 	margin: 0.25rem;
 	border-radius: 100%;
 	&:hover {
-		background-color: #eeebeb;
+		background-color: var(--color-hover);
 	}
 	cursor: pointer;
 `;

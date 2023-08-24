@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { BsFillMicFill, BsSearch, BsYoutube } from 'react-icons/bs';
-import { FaRegBell } from 'react-icons/fa';
 import { GoHomeFill } from 'react-icons/go';
 import { ImDrawer, ImMusic } from 'react-icons/im';
 import { TbBrandYoutubeKids } from 'react-icons/tb';
@@ -18,10 +17,10 @@ export default function SearchHeader() {
 	const [speech, setSpeech] = useState(false);
 
 	const navigate = useNavigate();
+
 	const submitHandler = e => {
 		e.preventDefault();
 		navigate(`/videos/${text}`);
-		setText('');
 	};
 
 	const menuOpenBtn = e => {
@@ -34,7 +33,7 @@ export default function SearchHeader() {
 	};
 
 	return (
-		<header className="flex justify-between w-full pt-2 pr-2 mb-12 text2xl ">
+		<BackGroundColor className="flex justify-between w-full pt-2 pr-2 mb-12 text2xl ">
 			<div className="flex items-center">
 				<Icon icon={<AiOutlineMenu className="cursor-pointer " size={25} onClick={menuOpenBtn} />} />
 				<Link to="/" className="flex items-center">
@@ -63,34 +62,31 @@ export default function SearchHeader() {
 					</Container>
 				)}
 			</div>
-			<form
-				onSubmit={submitHandler}
-				className="flex items-center justify-center w-5/12 border gap-x-4 rounded-3xl border-zinc-300 "
-			>
-				<input
-					className="flex items-center w-full p-2 text-xl outline-indigo-300 rounded-3xl"
+			<DarkForm onSubmit={submitHandler} className="flex items-center justify-center w-5/12 gap-x-1 rounded-3xl">
+				<DarkInput
+					className="flex items-center w-full p-2 text-xl outline-none"
 					type="text"
 					value={text}
 					placeholder="검색"
 					onChange={e => setText(e.target.value)}
 				/>
-				<div className="flex">
+				<div className="flex items-center justify-center mr-1">
 					<Icon onClick={submitHandler} icon={<BsSearch className="cursor-pointer" size={20} />} />
 					<Icon
 						onClick={() => setSpeech(!speech)}
 						icon={<BsFillMicFill className="cursor-pointer" size={20} />}
 					/>
 				</div>
-			</form>
+			</DarkForm>
 
 			{speech && <SpeechRecognitionApp speech={speech} setSpeech={setSpeech} />}
 
 			<div className="flex items-center justify-center gap-7">
-				<Icon icon={<FaRegBell className="cursor-pointer " size={25} />} />
+				{/* <Icon icon={<FaRegBell className="cursor-pointer " size={25} />} /> */}
 				{/* <RxAvatar className="cursor-pointer" size={30} /> */}
 				<User />
 			</div>
-		</header>
+		</BackGroundColor>
 	);
 }
 
@@ -106,7 +102,8 @@ const Container = styled.div`
 `;
 
 const Bar = styled.div`
-	background-color: white;
+	background-color: var(--color-bg);
+	color: var(--color-txt);
 	width: 16rem;
 	position: fixed;
 	left: 0;
@@ -117,4 +114,19 @@ const Bar = styled.div`
 	align-items: center;
 	z-index: 2;
 	padding-top: 8px;
+`;
+
+const BackGroundColor = styled.div`
+	background-color: var(--color-bg);
+	color: var(--color-txt);
+`;
+
+const DarkForm = styled.form`
+	border: 1px solid var(--color-border);
+`;
+
+const DarkInput = styled.input`
+	background-color: var(--color-bg);
+	border-right: 1px solid var(--color-border);
+	margin-left: 1.5rem;
 `;

@@ -22,7 +22,7 @@ const InfoBar = styled.div`
 	height: 3rem;
 	width: 20rem;
 	&:hover {
-		background-color: #eeebeb;
+		background-color: var(--color-hover);
 	}
 	cursor: pointer;
 `;

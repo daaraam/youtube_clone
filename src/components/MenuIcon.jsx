@@ -21,6 +21,6 @@ const IconBar = styled.div`
 	border-radius: 10px;
 	height: 3rem;
 	&:hover {
-		background-color: #eeebeb;
+		background-color: var(--color-hover);
 	}
 `;

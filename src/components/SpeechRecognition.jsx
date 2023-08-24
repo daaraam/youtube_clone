@@ -57,11 +57,13 @@ const Container = styled.div`
 `;
 
 const SpeechBar = styled.div`
+	background-color: var(--color-bg);
+	color: var(--color-txt);
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
-	background-color: white;
+	background-color: var(--color-bg);
 	width: 30rem;
 	height: 25rem;
 	padding: 2vw;
@@ -88,8 +90,8 @@ const Listening = styled.button`
 	margin: 0.25rem;
 	border-radius: 100%;
 	&:hover {
-		background-color: #eeebeb;
+		background-color: var(--color-hover);
 	}
 	cursor: pointer;
-	background-color: #f2abab;
+	background-color: var(--color-accent);
 `;
