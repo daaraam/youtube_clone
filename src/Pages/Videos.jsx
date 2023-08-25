@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 import { styled } from 'styled-components';
 import VideoCard from '../components/VideoCard';
 import { useYoutubeApi } from '../context/YoutubeApiContext';
+import styles from './Loading.module.css';
 
 export default function Videos() {
 	const { youtube } = useYoutubeApi();
@@ -16,8 +17,7 @@ export default function Videos() {
 	return (
 		<BackGroundColor>
 			{/* <div>{keyword ? `🔍${keyword}` : ''}</div> */}
-			{isLoading && <p>Loading...</p>}
-			{/* 여기에 스켈레톤 넣고싶음! */}
+			{isLoading && <div className={styles.loader}>Loading...</div>}
 			{isError && <p>에러발생 😖</p>}
 			{data && (
 				<ul className="grid grid-cols-1 gap-2 gap-y-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-col-5">

@@ -25,11 +25,11 @@ export default function SearchHeader() {
 
 	const menuOpenBtn = e => {
 		setMenu(true);
-		document.body.style.overflow = 'hidden';
+		// document.body.style.overflow = 'hidden';
 	};
 	const menuCloseBtn = e => {
 		setMenu(false);
-		document.body.style.overflow = 'unset';
+		// document.body.style.overflow = 'unset';
 	};
 
 	return (

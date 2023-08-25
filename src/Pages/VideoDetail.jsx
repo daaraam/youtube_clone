@@ -16,18 +16,20 @@ export default function VideoDetail() {
 		<section>
 			<article>
 				<iframe
+					className="rounded-xl"
 					id="player"
 					type="text/html"
-					width="100%"
-					height="640"
-					src={`http://www.youtube.com/embed/${videoItem.id}`}
+					width="720"
+					height="405"
+					src={`http://www.youtube.com/embed/${videoItem.id}?autoplay=1`}
 					frameborder="0"
+					allowFullScreen
 				/>
 				<div>
 					<h2 className="text-2xl font-bold">{title}</h2>
 					<ChannelInfo id={channelId} name={channelTitle} />
 					{/* ChannelInfo라는 컴포넌트에 전달해줄 정보 */}
-					<p>{formatAgo(publishedAt, 'ko')}</p>
+					<p>{formatAgo(publishedAt)}</p>
 					<pre className="line-clamp-3">{description}</pre>
 				</div>
 			</article>
