@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { BsFillMicFill, BsSearch, BsYoutube } from 'react-icons/bs';
 import { GoHomeFill } from 'react-icons/go';
 import { ImDrawer, ImMusic } from 'react-icons/im';
 import { TbBrandYoutubeKids } from 'react-icons/tb';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate, useParams } from 'react-router-dom';
 import { styled } from 'styled-components';
 import Icon from './Icon';
 import MenuIcon from './MenuIcon';
@@ -17,11 +17,15 @@ export default function SearchHeader() {
 	const [speech, setSpeech] = useState(false);
 
 	const navigate = useNavigate();
+	const { keyword } = useParams();
 
 	const submitHandler = e => {
 		e.preventDefault();
 		navigate(`/videos/${text}`);
 	};
+
+	useEffect(() => setText(keyword || ''), [keyword]);
+	// keyword(path로 설정해둔 params)가 변경될때마다 실행되는데, text를 keyword로 바꾸거나, keyword가 없으면 비워두기.
 
 	const menuOpenBtn = e => {
 		setMenu(true);
