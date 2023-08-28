@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
+import { styled } from 'styled-components';
 import ChannelInfo from '../components/ChannelInfo';
-import RelatedVideos from '../components/RelatedVideos';
 import { formatAgo } from '../util/date';
 
 export default function VideoDetail() {
@@ -25,17 +25,33 @@ export default function VideoDetail() {
 					frameborder="0"
 					allowFullScreen
 				/>
-				<div>
-					<h2 className="text-2xl font-bold">{title}</h2>
+				<DetailTextBox>
+					<Title className="text-2xl font-bold line-clamp-2">{title}</Title>
 					<ChannelInfo id={channelId} name={channelTitle} />
-					{/* ChannelInfo라는 컴포넌트에 전달해줄 정보 */}
-					<p>{formatAgo(publishedAt)}</p>
-					<pre className="line-clamp-3">{description}</pre>
-				</div>
+					<DetailText expanded={true} className="p-2 rounded-xl line-clamp-2">
+						<p>{formatAgo(publishedAt)}</p>
+						{description}
+					</DetailText>
+				</DetailTextBox>
 			</article>
-			<section>
-				<RelatedVideos id={videoItem.id} />
-			</section>
 		</section>
 	);
 }
+
+const DetailTextBox = styled.div``;
+
+const Title = styled.p`
+	width: 720px;
+	margin-top: 1rem;
+`;
+
+const DetailText = styled.div`
+	margin-top: 1rem;
+	width: 720px;
+	background-color: #eeeeee;
+	transition: height 0.3s ease;
+	&:hover {
+		filter: brightness(95%);
+		height: ${({ expanded }) => (expanded ? '8rem' : '4rem')};
+	}
+`;

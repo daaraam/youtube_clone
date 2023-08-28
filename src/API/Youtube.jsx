@@ -1,11 +1,6 @@
-import axios from 'axios';
-
 export default class RealYoutube {
-	constructor() {
-		this.httpClient = axios.create({
-			baseURL: 'https://youtube.googleapis.com/youtube/v3',
-			params: { key: process.env.REACT_APP_YOUTUBE_API_KEY },
-		});
+	constructor(apiClient) {
+		this.apiClient = apiClient;
 	}
 
 	async search(keyword) {
@@ -13,11 +8,11 @@ export default class RealYoutube {
 	}
 
 	async #searchByKeyword(keyword) {
-		return this.httpClient
-			.get('search', {
+		return this.apiClient
+			.search({
 				params: {
 					part: 'snippet',
-					maxResults: 8,
+					maxResults: 4,
 					type: 'video',
 					// 이걸 안넣으면 채널을 걸러주지 않음
 					q: keyword,
@@ -28,17 +23,30 @@ export default class RealYoutube {
 	}
 
 	async #mostPopular() {
-		return this.httpClient
-			.get('videos', {
+		return this.apiClient
+			.videos({
 				params: {
 					part: 'snippet',
-					maxResults: 8,
+					maxResults: 4,
 					chart: 'mostPopular',
 				},
 			}) //
 			.then(res => {
 				console.log(res);
 				return res.data.items;
+			});
+	}
+
+	async ChannelImageURL(id) {
+		return this.apiClient
+			.channels({
+				params: {
+					part: 'snippet',
+					id: id,
+				},
+			})
+			.then(res => {
+				return res.data.items[0].snippet.thumbnails.default.url;
 			});
 	}
 }

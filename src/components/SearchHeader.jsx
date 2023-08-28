@@ -101,23 +101,24 @@ const Container = styled.div`
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0, 0, 0, 0.4);
+	background-color: rgba(0, 0, 0, 0.6);
 	z-index: 1;
 `;
-
 const Bar = styled.div`
 	background-color: var(--color-bg);
 	color: var(--color-txt);
 	width: 16rem;
-	position: fixed;
-	left: 0;
 	top: 0;
+	bottom: 0;
+	left: 0;
+	position: fixed;
 	height: 100%;
 	padding: 0 2vw;
 	flex-direction: row;
 	align-items: center;
 	z-index: 2;
 	padding-top: 8px;
+	transition: 0.4s ease;
 `;
 
 const BackGroundColor = styled.div`

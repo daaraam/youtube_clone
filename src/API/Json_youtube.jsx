@@ -15,4 +15,8 @@ export default class FakeYoutube {
 	async #mostPopular() {
 		return axios.get(`/youtube/popular.json`).then(res => res.data.items);
 	}
+
+	async ChannelImageURL() {
+		return axios.get(`/youtube/channel.json`).then(res => res.data.items[0].snippet.thumbnails.default.url);
+	}
 }
