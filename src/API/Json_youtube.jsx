@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export default class JsonYoutube {
+export default class FakeYoutube {
 	async search(keyword) {
 		return keyword ? this.#searchByKeyword(keyword) : this.#mostPopular();
 	}

@@ -127,10 +127,15 @@ const BackGroundColor = styled.div`
 
 const DarkForm = styled.form`
 	border: 1px solid var(--color-border);
+	&:focus-within {
+		border: 3px solid red;
+	}
 `;
 
 const DarkInput = styled.input`
 	background-color: var(--color-bg);
-	border-right: 1px solid var(--color-border);
 	margin-left: 1.5rem;
+	&:focus-within {
+		padding-left: 1rem;
+	}
 `;

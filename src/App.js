@@ -12,8 +12,8 @@ function App() {
 		<DarkModeProvider>
 			<AuthContextProvider>
 				<SearchHeader />
+				{/* youtube인스턴스를 제공하는 우산 */}
 				<YoutubeApiProvider>
-					{/* youtube인스턴스를 제공하는 우산 */}
 					<QueryClientProvider client={queryClient}>
 						<Outlet />
 					</QueryClientProvider>

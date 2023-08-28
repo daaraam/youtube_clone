@@ -7,25 +7,21 @@ import { useYoutubeApi } from '../context/YoutubeApiContext';
 import styles from './Loading.module.css';
 
 export default function Videos() {
-	const { youtube } = useYoutubeApi();
-	// const youtube = useContext(YoutubeApiContext);
 	const { keyword } = useParams();
-	const { isLoading, isError, data } = useQuery(['videos', keyword], () => youtube.search(keyword));
-	// search와 popular데이터를 다 여기서 관리하고 있음.
-	// youtube와 json_youtube의 여부는 YoutubeApiContext에서 useYoutubeApi를 생성하면서 관리하고 있음.
+	const { youtube } = useYoutubeApi();
+	const { isLoading, error, data } = useQuery(['videos', keyword], () => youtube.search(keyword));
 
 	return (
 		<BackGroundColor>
 			{isLoading && <div className={styles.loader}>Loading...</div>}
-			{isError && (
+			{error && (
 				<ErrorImg>
 					<img
 						src="https://www.nicepng.com/png/detail/212-2123494_the-page-looks-great-but-i-have-trouble.png"
 						alt="404Error"
 						width={1000}
-						height={1000}
+						height={300}
 					/>
-					<h1>404 Page not found</h1>
 				</ErrorImg>
 			)}
 			{data && (
@@ -50,9 +46,8 @@ const BackGroundColor = styled.div`
 
 const ErrorImg = styled.div`
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 100%;
-	column-gap: 3rem;
+	height: 80vh;
+	background-color: var(--color-bg);
 `;
