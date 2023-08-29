@@ -12,7 +12,7 @@ export default class RealYoutube {
 			.search({
 				params: {
 					part: 'snippet',
-					maxResults: 4,
+					maxResults: 12,
 					type: 'video',
 					// 이걸 안넣으면 채널을 걸러주지 않음
 					q: keyword,
@@ -27,7 +27,7 @@ export default class RealYoutube {
 			.videos({
 				params: {
 					part: 'snippet',
-					maxResults: 4,
+					maxResults: 12,
 					chart: 'mostPopular',
 				},
 			}) //

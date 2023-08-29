@@ -15,7 +15,7 @@ export default function VideoCard({ videoItem }) {
 	return (
 		<li onClick={() => goDetailPage()} className="cursor-pointer">
 			<img className="w-full rounded-xl" src={thumbnails.medium.url} alt={title} />
-			<TitleBox>
+			<div className="flex w-full">
 				<ChannelImage>
 					<ChannelInfo id={channelId} />
 				</ChannelImage>
@@ -24,20 +24,16 @@ export default function VideoCard({ videoItem }) {
 					<p className="text-sm opacity-80">{channelTitle}</p>
 					<p className="text-sm opacity-80">{formatAgo(publishedAt, 'ko')} </p>
 				</ChannelBox>
-			</TitleBox>
+			</div>
 		</li>
 	);
 }
-const TitleBox = styled.div`
-	display: flex;
-	width: 100%;
-`;
 export const ChannelImage = styled.p`
 	width: 3rem;
 	height: 3rem;
 `;
 
-const ChannelBox = styled.div`
+export const ChannelBox = styled.div`
 	display: flex;
 	flex-direction: column;
 	width: 100%;
