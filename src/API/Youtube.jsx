@@ -12,7 +12,7 @@ export default class RealYoutube {
 			.search({
 				params: {
 					part: 'snippet',
-					maxResults: 12,
+					maxResults: 1,
 					type: 'video',
 					// 이걸 안넣으면 채널을 걸러주지 않음
 					q: keyword,
@@ -27,7 +27,7 @@ export default class RealYoutube {
 			.videos({
 				params: {
 					part: 'snippet',
-					maxResults: 12,
+					maxResults: 1,
 					chart: 'mostPopular',
 				},
 			}) //
@@ -48,5 +48,16 @@ export default class RealYoutube {
 			.then(res => {
 				return res.data.items[0].snippet.thumbnails.default.url;
 			});
+	}
+
+	async CommentData(videoId) {
+		return this.apiClient
+			.commentThreads({
+				params: {
+					part: 'snippet,replies',
+					videoId: videoId,
+				},
+			})
+			.then(res => res.data.items.map(item => item.snippet.topLevelComment.snippet));
 	}
 }

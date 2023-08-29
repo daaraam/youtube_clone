@@ -36,7 +36,7 @@ const Channel = styled.div`
 	padding-top: 0.5rem;
 `;
 
-const Img = styled.img`
+export const Img = styled.img`
 	border-radius: 100%;
 	width: 2.5rem;
 	height: 2.5rem;

@@ -10,4 +10,7 @@ export default class JsonYoutube {
 	async channels() {
 		return axios.get('/videos/channel.json');
 	}
+	async comments() {
+		return axios.get('/videos/comment.json');
+	}
 }

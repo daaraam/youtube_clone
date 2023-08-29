@@ -1,0 +1,717 @@
+{
+	"kind": "youtube#commentThreadListResponse",
+	"etag": "bW2i81Y37Ep3R97faPpk3JBhwg4",
+	"nextPageToken": "QURTSl9pMS00Vk1BYkhwLVJzaUVnZVpybFVHSDFlVEtCcWxIM0tsbWFoMkdxc1VvMG9hdXVMWlBoczVBMk1zM2RvT1ZyM21ocFpLUDVZWXJfcENpd19VR1RrSThUNVhCaGc=",
+	"pageInfo": {
+		"totalResults": 20,
+		"resultsPerPage": 20
+	},
+	"items": [
+		{
+			"kind": "youtube#commentThread",
+			"etag": "-QmrysFEHcPWtZr47z7jzMFCwGk",
+			"id": "Ugx3KE06CNEyUeRUHyR4AaABAg",
+			"snippet": {
+				"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+				"videoId": "wBZaJ5wrTb0",
+				"topLevelComment": {
+					"kind": "youtube#comment",
+					"etag": "CWVlEbyJz1N47rS0uA-Kzp-zqpE",
+					"id": "Ugx3KE06CNEyUeRUHyR4AaABAg",
+					"snippet": {
+						"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+						"videoId": "wBZaJ5wrTb0",
+						"textDisplay": "🎧 𝗧𝗿𝗮𝗰𝗸𝗹𝗶𝘀𝘁 ",
+						"authorDisplayName": "at the moment",
+						"authorProfileImageUrl": "https://yt3.ggpht.com/rlGD_4AIngBuBzUN8ZP6JN5HQ9Lu7UfbhhngPsdSBYzCu6aVGwG8XwdlmluGkMzio3O8LZFRqQ=s48-c-k-c0x00ffffff-no-rj",
+						"authorChannelUrl": "http://www.youtube.com/channel/UCfnFkrNDaedGhGCY6rdrZyQ",
+						"authorChannelId": {
+							"value": "UCfnFkrNDaedGhGCY6rdrZyQ"
+						},
+						"canRate": true,
+						"viewerRating": "none",
+						"likeCount": 90,
+						"publishedAt": "2023-01-13T02:09:54Z",
+						"updatedAt": "2023-01-15T02:51:24Z"
+					}
+				},
+				"canReply": true,
+				"totalReplyCount": 1,
+				"isPublic": true
+			},
+			"replies": {
+				"comments": [
+					{
+						"kind": "youtube#comment",
+						"etag": "MkAwKB_iHIbznuGfzPeIG4PNEB8",
+						"id": "Ugx3KE06CNEyUeRUHyR4AaABAg.9ko8bRs3Mfw9pNPOaS4YsY",
+						"snippet": {
+							"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+							"videoId": "wBZaJ5wrTb0",
+							"textDisplay": "😊",
+							"textOriginal": "😊",
+							"parentId": "Ugx3KE06CNEyUeRUHyR4AaABAg",
+							"authorDisplayName": "Aline Bulhões",
+							"authorProfileImageUrl": "https://yt3.ggpht.com/Pj3EykEB9-_HLsrAM8EBtdnZr79ZKPUqPtAulR0g73tGIciIOh9S4TdEYTL7kHWjwL9R4ZB9=s48-c-k-c0x00ffffff-no-rj",
+							"authorChannelUrl": "http://www.youtube.com/channel/UCJJkKJGtbwEBH_FavoPRfjg",
+							"authorChannelId": {
+								"value": "UCJJkKJGtbwEBH_FavoPRfjg"
+							},
+							"canRate": true,
+							"viewerRating": "none",
+							"likeCount": 0,
+							"publishedAt": "2023-05-06T14:14:47Z",
+							"updatedAt": "2023-05-06T14:14:47Z"
+						}
+					}
+				]
+			}
+		},
+		{
+			"kind": "youtube#commentThread",
+			"etag": "WYKSeM1YHXqk-_RFHqZYtSshBPk",
+			"id": "UgyDE6t4jQsIB_iH7lB4AaABAg",
+			"snippet": {
+				"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+				"videoId": "wBZaJ5wrTb0",
+				"topLevelComment": {
+					"kind": "youtube#comment",
+					"etag": "dpifz4mPE81RmpFCJL_h6XAxFOQ",
+					"id": "UgyDE6t4jQsIB_iH7lB4AaABAg",
+					"snippet": {
+						"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+						"videoId": "wBZaJ5wrTb0",
+						"textDisplay": "첫곡부터 아라베스크 미쳣다ㅠㅠ",
+						"textOriginal": "첫곡부터 아라베스크 미쳣다ㅠㅠ",
+						"authorDisplayName": "민서",
+						"authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaRe9eEZA_KpH975fce8SSRlb9M2PkCYMh7Eh4AlJFlmCCiHNxypOWnysXD3nImkuBibka4=s48-c-k-c0x00ffffff-no-rj",
+						"authorChannelUrl": "http://www.youtube.com/channel/UCthCA08eT_UOXbe8ghoiFsw",
+						"authorChannelId": {
+							"value": "UCthCA08eT_UOXbe8ghoiFsw"
+						},
+						"canRate": true,
+						"viewerRating": "none",
+						"likeCount": 0,
+						"publishedAt": "2023-08-19T02:42:15Z",
+						"updatedAt": "2023-08-19T02:42:15Z"
+					}
+				},
+				"canReply": true,
+				"totalReplyCount": 0,
+				"isPublic": true
+			}
+		},
+		{
+			"kind": "youtube#commentThread",
+			"etag": "9RQ7CnTrZkHN85qD_MVJDabpTN4",
+			"id": "Ugw8ew4BwRXYXH79Lo94AaABAg",
+			"snippet": {
+				"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+				"videoId": "wBZaJ5wrTb0",
+				"topLevelComment": {
+					"kind": "youtube#comment",
+					"etag": "ElJ3rFUEXsgR50aejNGgXuf9ddQ",
+					"id": "Ugw8ew4BwRXYXH79Lo94AaABAg",
+					"snippet": {
+						"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+						"videoId": "wBZaJ5wrTb0",
+						"textDisplay": "막걸리가 생각나는 전 부치는 소리가 정겹네요",
+						"textOriginal": "막걸리가 생각나는 전 부치는 소리가 정겹네요",
+						"authorDisplayName": "Jongmin Park",
+						"authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaROs3BaK9oqnlPMk_rhXgQeFaLAIoGthiljdw=s48-c-k-c0x00ffffff-no-rj",
+						"authorChannelUrl": "http://www.youtube.com/channel/UCiPoun-Q5fZis-BXSOLqSYw",
+						"authorChannelId": {
+							"value": "UCiPoun-Q5fZis-BXSOLqSYw"
+						},
+						"canRate": true,
+						"viewerRating": "none",
+						"likeCount": 0,
+						"publishedAt": "2023-08-12T01:38:33Z",
+						"updatedAt": "2023-08-12T01:38:33Z"
+					}
+				},
+				"canReply": true,
+				"totalReplyCount": 0,
+				"isPublic": true
+			}
+		},
+		{
+			"kind": "youtube#commentThread",
+			"etag": "WzCmc80YU7f7-JB8VXcFKYc3e0Y",
+			"id": "UgxdCjVSeSc-ZVJZOup4AaABAg",
+			"snippet": {
+				"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+				"videoId": "wBZaJ5wrTb0",
+				"topLevelComment": {
+					"kind": "youtube#comment",
+					"etag": "KsfigRpm65r_kGBjeocZSMCP5QM",
+					"id": "UgxdCjVSeSc-ZVJZOup4AaABAg",
+					"snippet": {
+						"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+						"videoId": "wBZaJ5wrTb0",
+						"textDisplay": "비오는날 빗소리와 함께 들으니까 너무 좋네요",
+						"textOriginal": "비오는날 빗소리와 함께 들으니까 너무 좋네요",
+						"authorDisplayName": "슬기로운생활",
+						"authorProfileImageUrl": "https://yt3.ggpht.com/QOgdPvVkFVc2plde6MJGBsNS08k7BpvVP6Tj65OERw3YdLWHCC3NaYXzXC91-b7tjF9ruQ1gjLk=s48-c-k-c0x00ffffff-no-rj",
+						"authorChannelUrl": "http://www.youtube.com/channel/UCjWt-f8ZlevFvwi6aZAsNmw",
+						"authorChannelId": {
+							"value": "UCjWt-f8ZlevFvwi6aZAsNmw"
+						},
+						"canRate": true,
+						"viewerRating": "none",
+						"likeCount": 0,
+						"publishedAt": "2023-08-10T03:37:25Z",
+						"updatedAt": "2023-08-10T03:37:25Z"
+					}
+				},
+				"canReply": true,
+				"totalReplyCount": 0,
+				"isPublic": true
+			}
+		},
+		{
+			"kind": "youtube#commentThread",
+			"etag": "9YIlth4QxyZsb7uOpD4U4z_sf78",
+			"id": "Ugwjjwac5XwMRTxPw4x4AaABAg",
+			"snippet": {
+				"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+				"videoId": "wBZaJ5wrTb0",
+				"topLevelComment": {
+					"kind": "youtube#comment",
+					"etag": "EdYp1uo3-4JceU55_42xTL8BIGE",
+					"id": "Ugwjjwac5XwMRTxPw4x4AaABAg",
+					"snippet": {
+						"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+						"videoId": "wBZaJ5wrTb0",
+						"textDisplay": "멋쩌요❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤",
+						"textOriginal": "멋쩌요❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤",
+						"authorDisplayName": "이명원",
+						"authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaSo8xZYY2WtVD703DrSK2mB-EYeB7jmtaFOBw=s48-c-k-c0x00ffffff-no-rj",
+						"authorChannelUrl": "http://www.youtube.com/channel/UCs0Pf--BrqNOYfKOfNqSrLw",
+						"authorChannelId": {
+							"value": "UCs0Pf--BrqNOYfKOfNqSrLw"
+						},
+						"canRate": true,
+						"viewerRating": "none",
+						"likeCount": 0,
+						"publishedAt": "2023-08-04T14:35:17Z",
+						"updatedAt": "2023-08-04T14:35:17Z"
+					}
+				},
+				"canReply": true,
+				"totalReplyCount": 0,
+				"isPublic": true
+			}
+		},
+		{
+			"kind": "youtube#commentThread",
+			"etag": "vE-2FigGavDqTuT_onQC8oEl8og",
+			"id": "UgzOysyvS0VjqpWW99R4AaABAg",
+			"snippet": {
+				"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+				"videoId": "wBZaJ5wrTb0",
+				"topLevelComment": {
+					"kind": "youtube#comment",
+					"etag": "ntsftxnNXl_6oWxmmeZzYLXwakk",
+					"id": "UgzOysyvS0VjqpWW99R4AaABAg",
+					"snippet": {
+						"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+						"videoId": "wBZaJ5wrTb0",
+						"textDisplay": "<a href=\"https://www.youtube.com/watch?v=wBZaJ5wrTb0&amp;t=23m09s\">23:09</a> 미쳐따,,,♡ 가슴속부터 웅장해지는게 드뷔시를 가장 잘 나타낸 플리 구성이고 극대화한 분인거 같아요♡♡ 반하고 갑니다!",
+						"textOriginal": "23:09 미쳐따,,,♡ 가슴속부터 웅장해지는게 드뷔시를 가장 잘 나타낸 플리 구성이고 극대화한 분인거 같아요♡♡ 반하고 갑니다!",
+						"authorDisplayName": "쏭입니다룽",
+						"authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaQWwEs3IYKeAlSw7teIBIEIZxXPLcumbQTLg4OO=s48-c-k-c0x00ffffff-no-rj",
+						"authorChannelUrl": "http://www.youtube.com/channel/UClvU4aYXy1uNSdIPIrfblOg",
+						"authorChannelId": {
+							"value": "UClvU4aYXy1uNSdIPIrfblOg"
+						},
+						"canRate": true,
+						"viewerRating": "none",
+						"likeCount": 2,
+						"publishedAt": "2023-07-31T09:44:24Z",
+						"updatedAt": "2023-07-31T09:44:24Z"
+					}
+				},
+				"canReply": true,
+				"totalReplyCount": 0,
+				"isPublic": true
+			}
+		},
+		{
+			"kind": "youtube#commentThread",
+			"etag": "XCcbrunFE0IaejLkfSXYtHZnMHs",
+			"id": "Ugx3x0ZeE6rhzp4etI14AaABAg",
+			"snippet": {
+				"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+				"videoId": "wBZaJ5wrTb0",
+				"topLevelComment": {
+					"kind": "youtube#comment",
+					"etag": "TzzOo92IgtUnet1zZ2-bh9CneSI",
+					"id": "Ugx3x0ZeE6rhzp4etI14AaABAg",
+					"snippet": {
+						"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+						"videoId": "wBZaJ5wrTb0",
+						"textDisplay": "소나타, 짐노페디 이 두 곡이 좋아하는 곡인데 귀가 너무 행복했어요 :)!!",
+						"textOriginal": "소나타, 짐노페디 이 두 곡이 좋아하는 곡인데 귀가 너무 행복했어요 :)!!",
+						"authorDisplayName": "안녕",
+						"authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaRyKaSQ6Boqss-Rj-6ZailZMhyalZcP9FzsDkxz=s48-c-k-c0x00ffffff-no-rj",
+						"authorChannelUrl": "http://www.youtube.com/channel/UC_lt-vzpHIXg3UNeQtOtW4A",
+						"authorChannelId": {
+							"value": "UC_lt-vzpHIXg3UNeQtOtW4A"
+						},
+						"canRate": true,
+						"viewerRating": "none",
+						"likeCount": 0,
+						"publishedAt": "2023-07-21T15:25:20Z",
+						"updatedAt": "2023-07-21T15:25:20Z"
+					}
+				},
+				"canReply": true,
+				"totalReplyCount": 0,
+				"isPublic": true
+			}
+		},
+		{
+			"kind": "youtube#commentThread",
+			"etag": "h1vO0QOCVYLdiK_aLUSwTuIcRgY",
+			"id": "UgzxpoeaH_AUy7a9Lbp4AaABAg",
+			"snippet": {
+				"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+				"videoId": "wBZaJ5wrTb0",
+				"topLevelComment": {
+					"kind": "youtube#comment",
+					"etag": "phWZYHtNS0IqlkUZ8IypqPT6neY",
+					"id": "UgzxpoeaH_AUy7a9Lbp4AaABAg",
+					"snippet": {
+						"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+						"videoId": "wBZaJ5wrTb0",
+						"textDisplay": "좋네요..마음이 편안해진다...빗소리 신의한수",
+						"textOriginal": "좋네요..마음이 편안해진다...빗소리 신의한수",
+						"authorDisplayName": "현경 주",
+						"authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaS1xgI34YbogdORrq2Wx-IS-kaNYzElVpVxT-mCeFgndA=s48-c-k-c0x00ffffff-no-rj",
+						"authorChannelUrl": "http://www.youtube.com/channel/UCTuF8-TjdYVSEsnDfK5Dxxw",
+						"authorChannelId": {
+							"value": "UCTuF8-TjdYVSEsnDfK5Dxxw"
+						},
+						"canRate": true,
+						"viewerRating": "none",
+						"likeCount": 0,
+						"publishedAt": "2023-07-18T00:59:29Z",
+						"updatedAt": "2023-07-18T00:59:29Z"
+					}
+				},
+				"canReply": true,
+				"totalReplyCount": 0,
+				"isPublic": true
+			}
+		},
+		{
+			"kind": "youtube#commentThread",
+			"etag": "Fq1mRTC3dNjW-y6jTFmjOF7gRks",
+			"id": "UgzVAVK2tyrdZdePOO14AaABAg",
+			"snippet": {
+				"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+				"videoId": "wBZaJ5wrTb0",
+				"topLevelComment": {
+					"kind": "youtube#comment",
+					"etag": "UQ0lTh3v19v_57BdYukmvbhYw5Y",
+					"id": "UgzVAVK2tyrdZdePOO14AaABAg",
+					"snippet": {
+						"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+						"videoId": "wBZaJ5wrTb0",
+						"textDisplay": "좋네요<br>감미롭고 평화롭고 잔잔하고 이제부터 일에 몰두해 볼랍니다 <br>어쩌면 오전내내  그냥 흘려버린 시간들에 복수할 수 있을 것 같네요<br>집중해서 빡센 오후 만들어볼랍니다<br>다들 건강하시고 행복하세요 😊",
+						"textOriginal": "좋네요\n감미롭고 평화롭고 잔잔하고 이제부터 일에 몰두해 볼랍니다 \n어쩌면 오전내내  그냥 흘려버린 시간들에 복수할 수 있을 것 같네요\n집중해서 빡센 오후 만들어볼랍니다\n다들 건강하시고 행복하세요 😊",
+						"authorDisplayName": "김초록추리",
+						"authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaQAorunW3vvX0FCYK2MVR-wBlXo075iDD2krA=s48-c-k-c0x00ffffff-no-rj",
+						"authorChannelUrl": "http://www.youtube.com/channel/UCj3YzlTjquYBm7S3uhGuotA",
+						"authorChannelId": {
+							"value": "UCj3YzlTjquYBm7S3uhGuotA"
+						},
+						"canRate": true,
+						"viewerRating": "none",
+						"likeCount": 0,
+						"publishedAt": "2023-07-15T06:33:08Z",
+						"updatedAt": "2023-07-15T06:33:08Z"
+					}
+				},
+				"canReply": true,
+				"totalReplyCount": 0,
+				"isPublic": true
+			}
+		},
+		{
+			"kind": "youtube#commentThread",
+			"etag": "-ngYEwFOCyQTo8yUAdMz3vEHOEI",
+			"id": "UgxsXN6IGoN9X23vE_V4AaABAg",
+			"snippet": {
+				"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+				"videoId": "wBZaJ5wrTb0",
+				"topLevelComment": {
+					"kind": "youtube#comment",
+					"etag": "zA1nkjhLKC1DP8v_uhzYeAa3DYU",
+					"id": "UgxsXN6IGoN9X23vE_V4AaABAg",
+					"snippet": {
+						"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+						"videoId": "wBZaJ5wrTb0",
+						"textDisplay": "요즘 장마라서 찝찝했는데 덕분에 좋은 노래를 듣게 되어서 색다르게 느껴지네요 그리고,자기 전에 들으면 좋을 것 같아요🥰🙏",
+						"textOriginal": "요즘 장마라서 찝찝했는데 덕분에 좋은 노래를 듣게 되어서 색다르게 느껴지네요 그리고,자기 전에 들으면 좋을 것 같아요🥰🙏",
+						"authorDisplayName": "공백",
+						"authorProfileImageUrl": "https://yt3.ggpht.com/xe7btEjQQHBRLWVf_HFVj6wsUqfta1Dqqu6LqFy3lx2m-xnacitVMSmEfBEzHTDZ22N9z6zUVw=s48-c-k-c0x00ffffff-no-rj",
+						"authorChannelUrl": "http://www.youtube.com/channel/UC8HeFQ6OoY5zjG5HWGcGg3A",
+						"authorChannelId": {
+							"value": "UC8HeFQ6OoY5zjG5HWGcGg3A"
+						},
+						"canRate": true,
+						"viewerRating": "none",
+						"likeCount": 0,
+						"publishedAt": "2023-07-12T14:55:36Z",
+						"updatedAt": "2023-07-12T14:56:03Z"
+					}
+				},
+				"canReply": true,
+				"totalReplyCount": 0,
+				"isPublic": true
+			}
+		},
+		{
+			"kind": "youtube#commentThread",
+			"etag": "qRoTwDlfSHrY7O3q5ndkv6Zw7HE",
+			"id": "UgxGxmHie0X8Nz-iYld4AaABAg",
+			"snippet": {
+				"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+				"videoId": "wBZaJ5wrTb0",
+				"topLevelComment": {
+					"kind": "youtube#comment",
+					"etag": "plaSYRZCloIvf5VCI_m7jsBY840",
+					"id": "UgxGxmHie0X8Nz-iYld4AaABAg",
+					"snippet": {
+						"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+						"videoId": "wBZaJ5wrTb0",
+						"textDisplay": "원래 클래식 관심도 없었는데 최근에 드뷔시에 푹 빠져버렸어요… 특히 달빛이 지금까지 들어본 곡 중에 제일 맘에 들어요 정말 어떻게 이런곡이 존재할수 있는지 싶고… 힐링되네요 좋은플리 고마워요❤❤",
+						"textOriginal": "원래 클래식 관심도 없었는데 최근에 드뷔시에 푹 빠져버렸어요… 특히 달빛이 지금까지 들어본 곡 중에 제일 맘에 들어요 정말 어떻게 이런곡이 존재할수 있는지 싶고… 힐링되네요 좋은플리 고마워요❤❤",
+						"authorDisplayName": "모세",
+						"authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaSX93euU9ogLZmw8RpKRrRsvNBo2fXKTriK0QOS=s48-c-k-c0x00ffffff-no-rj",
+						"authorChannelUrl": "http://www.youtube.com/channel/UCNWNmJN2vnWSPCPTop81jaA",
+						"authorChannelId": {
+							"value": "UCNWNmJN2vnWSPCPTop81jaA"
+						},
+						"canRate": true,
+						"viewerRating": "none",
+						"likeCount": 4,
+						"publishedAt": "2023-07-10T15:20:05Z",
+						"updatedAt": "2023-07-10T15:20:05Z"
+					}
+				},
+				"canReply": true,
+				"totalReplyCount": 0,
+				"isPublic": true
+			}
+		},
+		{
+			"kind": "youtube#commentThread",
+			"etag": "dd9dvhbiJWFlNGtcoPcvVs0NyUQ",
+			"id": "UgwS9ICau34hBdo3C0h4AaABAg",
+			"snippet": {
+				"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+				"videoId": "wBZaJ5wrTb0",
+				"topLevelComment": {
+					"kind": "youtube#comment",
+					"etag": "smo01RB8ROyzXdwptRqAuTIfcXg",
+					"id": "UgwS9ICau34hBdo3C0h4AaABAg",
+					"snippet": {
+						"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+						"videoId": "wBZaJ5wrTb0",
+						"textDisplay": "누군가가 이름도 드뷔시냐는 댓글이 기억에 남는데 정말 이름도 드뷔시💙오늘도 피아노 앞에 앉았습니다<br>그시대때 그가 바라본 달을 생각하며",
+						"textOriginal": "누군가가 이름도 드뷔시냐는 댓글이 기억에 남는데 정말 이름도 드뷔시💙오늘도 피아노 앞에 앉았습니다\n그시대때 그가 바라본 달을 생각하며",
+						"authorDisplayName": "냥냥펀치는 처음이라",
+						"authorProfileImageUrl": "https://yt3.ggpht.com/xu5957vn5MXrzXl-l2Jj7gQIi_Xbm-oRruysLHIAY9AkUA5alnXAQAPt9cNt2NZJFitxGpS0=s48-c-k-c0x00ffffff-no-rj",
+						"authorChannelUrl": "http://www.youtube.com/channel/UCWmpqEtvmLakhVZSETY_oMg",
+						"authorChannelId": {
+							"value": "UCWmpqEtvmLakhVZSETY_oMg"
+						},
+						"canRate": true,
+						"viewerRating": "none",
+						"likeCount": 0,
+						"publishedAt": "2023-07-05T10:02:45Z",
+						"updatedAt": "2023-07-05T10:02:45Z"
+					}
+				},
+				"canReply": true,
+				"totalReplyCount": 0,
+				"isPublic": true
+			}
+		},
+		{
+			"kind": "youtube#commentThread",
+			"etag": "O2UBCMJucyeCP6IC6PacCW0Iy8w",
+			"id": "UgxPnYBewPC6L5Zw7Dh4AaABAg",
+			"snippet": {
+				"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+				"videoId": "wBZaJ5wrTb0",
+				"topLevelComment": {
+					"kind": "youtube#comment",
+					"etag": "vSA2dUjKqEGUhP0NyMArKQ2BxvQ",
+					"id": "UgxPnYBewPC6L5Zw7Dh4AaABAg",
+					"snippet": {
+						"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+						"videoId": "wBZaJ5wrTb0",
+						"textDisplay": "릴리슈슈…",
+						"textOriginal": "릴리슈슈…",
+						"authorDisplayName": "ㅇㅇ",
+						"authorProfileImageUrl": "https://yt3.ggpht.com/lP-EZUQGZeLD09dQXse6-9uK7bkh3_WpBjbrr4bpPMLPLitf1hCqEhCup5wXQz-uK3Px0XcO=s48-c-k-c0x00ffffff-no-rj",
+						"authorChannelUrl": "http://www.youtube.com/channel/UCZ7nJaxzVVVTYYWo1VGq3bA",
+						"authorChannelId": {
+							"value": "UCZ7nJaxzVVVTYYWo1VGq3bA"
+						},
+						"canRate": true,
+						"viewerRating": "none",
+						"likeCount": 0,
+						"publishedAt": "2023-06-18T13:02:38Z",
+						"updatedAt": "2023-06-18T13:02:38Z"
+					}
+				},
+				"canReply": true,
+				"totalReplyCount": 0,
+				"isPublic": true
+			}
+		},
+		{
+			"kind": "youtube#commentThread",
+			"etag": "L6QcYDsiC-LKR1MdmAZ_aUTJO0Y",
+			"id": "UgyY8ONVPFVNH5fKADF4AaABAg",
+			"snippet": {
+				"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+				"videoId": "wBZaJ5wrTb0",
+				"topLevelComment": {
+					"kind": "youtube#comment",
+					"etag": "ERdUDtJPlR3JmwVTdi3fTz28FBA",
+					"id": "UgyY8ONVPFVNH5fKADF4AaABAg",
+					"snippet": {
+						"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+						"videoId": "wBZaJ5wrTb0",
+						"textDisplay": "언젠가는 다시 취미로라도 피아노 앞에 앉고 싶어지네요 .. 잘 듣고 갑니다 ❤️",
+						"textOriginal": "언젠가는 다시 취미로라도 피아노 앞에 앉고 싶어지네요 .. 잘 듣고 갑니다 ❤️",
+						"authorDisplayName": "혜빈",
+						"authorProfileImageUrl": "https://yt3.ggpht.com/nncfUGwRZ9EuR1dLzETkyQi10HUQcbYVZ_XRSgP-PCV8Xw7wP0SJD12OFAmRLR4n6lBLwVCzNqQ=s48-c-k-c0x00ffffff-no-rj",
+						"authorChannelUrl": "http://www.youtube.com/channel/UCZ-VpCqfFtJNkAi8lsH4NDg",
+						"authorChannelId": {
+							"value": "UCZ-VpCqfFtJNkAi8lsH4NDg"
+						},
+						"canRate": true,
+						"viewerRating": "none",
+						"likeCount": 0,
+						"publishedAt": "2023-06-16T21:50:40Z",
+						"updatedAt": "2023-06-16T21:50:40Z"
+					}
+				},
+				"canReply": true,
+				"totalReplyCount": 0,
+				"isPublic": true
+			}
+		},
+		{
+			"kind": "youtube#commentThread",
+			"etag": "JJb7t1eGIrHIQVf8iEPibSyN7Rs",
+			"id": "UgxwadoqloSqKck6Qwp4AaABAg",
+			"snippet": {
+				"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+				"videoId": "wBZaJ5wrTb0",
+				"topLevelComment": {
+					"kind": "youtube#comment",
+					"etag": "--lL-oAp3zJ9cj04ToSKBi66kDQ",
+					"id": "UgxwadoqloSqKck6Qwp4AaABAg",
+					"snippet": {
+						"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+						"videoId": "wBZaJ5wrTb0",
+						"textDisplay": "(선플달기 캠페인) 제가 본 클래식 영상 (수십개 뿐이지만) 중에 제일 마음이 편안해지네요 이렇게 올려주셔서 감사합니다😍",
+						"textOriginal": "(선플달기 캠페인) 제가 본 클래식 영상 (수십개 뿐이지만) 중에 제일 마음이 편안해지네요 이렇게 올려주셔서 감사합니다😍",
+						"authorDisplayName": "서이 조",
+						"authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaQJgh-HL87-F_FJOc0xdYv1nHbZavzZXUFmwoWI0vNfqg=s48-c-k-c0x00ffffff-no-rj",
+						"authorChannelUrl": "http://www.youtube.com/channel/UCvXx6h0Y_FqLvU7qfeQgHEg",
+						"authorChannelId": {
+							"value": "UCvXx6h0Y_FqLvU7qfeQgHEg"
+						},
+						"canRate": true,
+						"viewerRating": "none",
+						"likeCount": 1,
+						"publishedAt": "2023-06-07T04:45:03Z",
+						"updatedAt": "2023-06-07T04:45:03Z"
+					}
+				},
+				"canReply": true,
+				"totalReplyCount": 0,
+				"isPublic": true
+			}
+		},
+		{
+			"kind": "youtube#commentThread",
+			"etag": "UPKwAxeh_VHhOcrtvUbUZEHV8dg",
+			"id": "UgyP66JqUaWPvlFyQdx4AaABAg",
+			"snippet": {
+				"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+				"videoId": "wBZaJ5wrTb0",
+				"topLevelComment": {
+					"kind": "youtube#comment",
+					"etag": "KgjN7veQyELCnnnQsZJ6W_zCUx0",
+					"id": "UgyP66JqUaWPvlFyQdx4AaABAg",
+					"snippet": {
+						"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+						"videoId": "wBZaJ5wrTb0",
+						"textDisplay": "몇번을 듣는지 모르겠습니다<br>원래 저는 빗소리가 시끄럽다고만 느껴졌는데 이 플리를 듣고 나서 이젠 빗소리가 음악처럼 느껴져요 <br>클래식보단 재즈를 좋아했는데 <br>이젠 피아노들을 때 클래식을 더 찾게 되네요 제게 취미처럼 들을 수 있는 플리 만들어 주셔서 감사합니다 항상 행복하세요",
+						"textOriginal": "몇번을 듣는지 모르겠습니다\n원래 저는 빗소리가 시끄럽다고만 느껴졌는데 이 플리를 듣고 나서 이젠 빗소리가 음악처럼 느껴져요 \n클래식보단 재즈를 좋아했는데 \n이젠 피아노들을 때 클래식을 더 찾게 되네요 제게 취미처럼 들을 수 있는 플리 만들어 주셔서 감사합니다 항상 행복하세요",
+						"authorDisplayName": "for you",
+						"authorProfileImageUrl": "https://yt3.ggpht.com/rxrRz04Y0_Hs6xXarVN2KFeTHR-nhbZZJFfwWGyG6oETkmCACA6m68kA-aJWjoT7dFELbU2LfTM=s48-c-k-c0x00ffffff-no-rj",
+						"authorChannelUrl": "http://www.youtube.com/channel/UC7_JqgIWMLdM-Mryuk6Pt7g",
+						"authorChannelId": {
+							"value": "UC7_JqgIWMLdM-Mryuk6Pt7g"
+						},
+						"canRate": true,
+						"viewerRating": "none",
+						"likeCount": 1,
+						"publishedAt": "2023-06-04T06:16:47Z",
+						"updatedAt": "2023-06-04T06:16:47Z"
+					}
+				},
+				"canReply": true,
+				"totalReplyCount": 0,
+				"isPublic": true
+			}
+		},
+		{
+			"kind": "youtube#commentThread",
+			"etag": "bH4uVVo5SsIH85q0iHPmwKTqVqU",
+			"id": "Ugyistiv_wDs0TnAB_54AaABAg",
+			"snippet": {
+				"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+				"videoId": "wBZaJ5wrTb0",
+				"topLevelComment": {
+					"kind": "youtube#comment",
+					"etag": "gP0y4vGYtxQxWl09-HA2y6lVobs",
+					"id": "Ugyistiv_wDs0TnAB_54AaABAg",
+					"snippet": {
+						"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+						"videoId": "wBZaJ5wrTb0",
+						"textDisplay": "네 좋아해요",
+						"textOriginal": "네 좋아해요",
+						"authorDisplayName": "Chrchll.mp3",
+						"authorProfileImageUrl": "https://yt3.ggpht.com/yewe7U1gjLHSEliXbF85d6lVZew4-5wUtqJ2f8o8aFtjw1plga9Jg2YoWD0y4hxCHQVPTcaLwg=s48-c-k-c0x00ffffff-no-rj",
+						"authorChannelUrl": "http://www.youtube.com/channel/UC2ABQYJ3JRhRQ7PdAuyG2RA",
+						"authorChannelId": {
+							"value": "UC2ABQYJ3JRhRQ7PdAuyG2RA"
+						},
+						"canRate": true,
+						"viewerRating": "none",
+						"likeCount": 1,
+						"publishedAt": "2023-05-26T16:22:00Z",
+						"updatedAt": "2023-05-26T16:22:00Z"
+					}
+				},
+				"canReply": true,
+				"totalReplyCount": 0,
+				"isPublic": true
+			}
+		},
+		{
+			"kind": "youtube#commentThread",
+			"etag": "h9YaGhO8WfdKyaVztJW8eFrem2Q",
+			"id": "UgwcbCwgRSvfpfepT4F4AaABAg",
+			"snippet": {
+				"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+				"videoId": "wBZaJ5wrTb0",
+				"topLevelComment": {
+					"kind": "youtube#comment",
+					"etag": "z-5tVF4i2rxwlewZZzevRvEIk1g",
+					"id": "UgwcbCwgRSvfpfepT4F4AaABAg",
+					"snippet": {
+						"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+						"videoId": "wBZaJ5wrTb0",
+						"textDisplay": "OO아.. 타협은 행복이 아니다..<br><br>그리운 교수님의 말씀..",
+						"textOriginal": "OO아.. 타협은 행복이 아니다..\n\n그리운 교수님의 말씀..",
+						"authorDisplayName": "코냉이",
+						"authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaS1xgI34YbogdORrq2Wx-IS-kaNYzElVpVxT-mCeFgndA=s48-c-k-c0x00ffffff-no-rj",
+						"authorChannelUrl": "http://www.youtube.com/channel/UCvvaGliy5FC0x4jkqosyWRQ",
+						"authorChannelId": {
+							"value": "UCvvaGliy5FC0x4jkqosyWRQ"
+						},
+						"canRate": true,
+						"viewerRating": "none",
+						"likeCount": 0,
+						"publishedAt": "2023-05-05T05:27:16Z",
+						"updatedAt": "2023-05-05T05:27:16Z"
+					}
+				},
+				"canReply": true,
+				"totalReplyCount": 0,
+				"isPublic": true
+			}
+		},
+		{
+			"kind": "youtube#commentThread",
+			"etag": "40Flfo-MAqZrvrvR6dfE6vTtwvM",
+			"id": "UgzhrK4Bd5dkzK_rASl4AaABAg",
+			"snippet": {
+				"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+				"videoId": "wBZaJ5wrTb0",
+				"topLevelComment": {
+					"kind": "youtube#comment",
+					"etag": "Dh93kCd5v5Cv9MqRil082G25v1s",
+					"id": "UgzhrK4Bd5dkzK_rASl4AaABAg",
+					"snippet": {
+						"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+						"videoId": "wBZaJ5wrTb0",
+						"textDisplay": "<a href=\"https://www.youtube.com/watch?v=wBZaJ5wrTb0&amp;t=21m43s\">21:43</a> 이건 뭔.. 영화 ost인가요 존나 웅장하네 ….",
+						"textOriginal": "21:43 이건 뭔.. 영화 ost인가요 존나 웅장하네 ….",
+						"authorDisplayName": "소율",
+						"authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AOPolaQ9by9BOz4zxty6IAoYgDkT2mwfcuBZaF1gvQLWKWFVoLpyKmpkEHHPVXX_xTW2yadVDW4=s48-c-k-c0x00ffffff-no-rj",
+						"authorChannelUrl": "http://www.youtube.com/channel/UC2-XZb5KsC2Rll9wSmoG65A",
+						"authorChannelId": {
+							"value": "UC2-XZb5KsC2Rll9wSmoG65A"
+						},
+						"canRate": true,
+						"viewerRating": "none",
+						"likeCount": 3,
+						"publishedAt": "2023-04-23T10:56:59Z",
+						"updatedAt": "2023-04-23T11:04:57Z"
+					}
+				},
+				"canReply": true,
+				"totalReplyCount": 0,
+				"isPublic": true
+			}
+		},
+		{
+			"kind": "youtube#commentThread",
+			"etag": "CfymY22MnPNTdBXyES16XeLPOUI",
+			"id": "UgwQdgbB4NyO_w2Ofu54AaABAg",
+			"snippet": {
+				"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+				"videoId": "wBZaJ5wrTb0",
+				"topLevelComment": {
+					"kind": "youtube#comment",
+					"etag": "DpsDBfMRPNxwmPRUt7oAaysjhhY",
+					"id": "UgwQdgbB4NyO_w2Ofu54AaABAg",
+					"snippet": {
+						"channelId": "UCfnFkrNDaedGhGCY6rdrZyQ",
+						"videoId": "wBZaJ5wrTb0",
+						"textDisplay": "[무드랩 x at the moment] <br>조향사가 운영하는 작은 향수가게 무드랩에서<br>봄맞이 작은 이벤트를 준비했어요 :)<br><br>🌸1+1 상품 단 3일 무료배송 (~3/26) <br>🌸미니 향수 2개 증정<br>🌸모먼트플리 구독자님 단독 혜택: 배송메세지에 ‘모먼트플리’ 남겨주시면 10일간 사용 가능한 디스커버리제품 추가 증정  <br><br>🌸구매링크: <a href=\"http://bit.ly/3TuvZIX\">bit.ly/3TuvZIX</a><br><br>립틴트 크기의 휴대용 멀티 퍼퓸과 함께<br>다가오는 봄, 좋은 향기와 행복한 순간을 만드세요 :) 감사합니다",
+						"textOriginal": "[무드랩 x at the moment] \n조향사가 운영하는 작은 향수가게 무드랩에서\n봄맞이 작은 이벤트를 준비했어요 :)\n\n🌸1+1 상품 단 3일 무료배송 (~3/26) \n🌸미니 향수 2개 증정\n🌸모먼트플리 구독자님 단독 혜택: 배송메세지에 ‘모먼트플리’ 남겨주시면 10일간 사용 가능한 디스커버리제품 추가 증정  \n\n🌸구매링크: bit.ly/3TuvZIX\n\n립틴트 크기의 휴대용 멀티 퍼퓸과 함께\n다가오는 봄, 좋은 향기와 행복한 순간을 만드세요 :) 감사합니다",
+						"authorDisplayName": "at the moment",
+						"authorProfileImageUrl": "https://yt3.ggpht.com/rlGD_4AIngBuBzUN8ZP6JN5HQ9Lu7UfbhhngPsdSBYzCu6aVGwG8XwdlmluGkMzio3O8LZFRqQ=s48-c-k-c0x00ffffff-no-rj",
+						"authorChannelUrl": "http://www.youtube.com/channel/UCfnFkrNDaedGhGCY6rdrZyQ",
+						"authorChannelId": {
+							"value": "UCfnFkrNDaedGhGCY6rdrZyQ"
+						},
+						"canRate": true,
+						"viewerRating": "none",
+						"likeCount": 1,
+						"publishedAt": "2023-03-21T12:15:09Z",
+						"updatedAt": "2023-03-24T05:02:37Z"
+					}
+				},
+				"canReply": true,
+				"totalReplyCount": 0,
+				"isPublic": true
+			}
+		}
+	]
+}

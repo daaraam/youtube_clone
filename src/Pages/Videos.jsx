@@ -36,15 +36,12 @@ export default function Videos() {
 	);
 }
 
-// useQuery는 비동기통신은 해주지만 어떻게 네트워크 통신을 해야하는지는 해결해주지 않는다.
-// 그래서 axios 라이브러리를 사용하는데, 비동기함수의 캐싱전략은 무엇인지를 따로 빼두면 좋다.
-
 const BackGroundColor = styled.div`
 	background-color: var(--color-bg);
 	color: var(--color-txt);
 `;
 
-const ErrorImg = styled.div`
+export const ErrorImg = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;

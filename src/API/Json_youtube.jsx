@@ -19,4 +19,10 @@ export default class FakeYoutube {
 	async ChannelImageURL() {
 		return axios.get(`/youtube/channel.json`).then(res => res.data.items[0].snippet.thumbnails.default.url);
 	}
+
+	async CommentData() {
+		return axios
+			.get(`/youtube/comment.json`)
+			.then(res => res.data.items.map(item => item.snippet.topLevelComment.snippet));
+	}
 }

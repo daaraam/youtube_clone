@@ -10,7 +10,7 @@
   --color-txt: black;
   --color-hover: #eeebeb;
   --color-accent: #bfff00;
-  --color-border: #d3d3d3;
+  --color-border: #e4e4e4;
   @apply bg-white;
 }
 
