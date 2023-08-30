@@ -23,13 +23,13 @@ export default function VideoDetail() {
 					width="100%"
 					height="500"
 					src={`http://www.youtube.com/embed/${videoItem.id}?autoplay=1`}
-					frameborder="0"
+					frameBorder="0"
 					allowFullScreen
 				/>
 				<div className="py-3">
 					<div className="w-full my-1 text-2xl font-bold line-clamp-2">{title}</div>
 					<ChannelInfo id={channelId} name={channelTitle} />
-					<DetailText expanded={true} className="p-2 rounded-xl line-clamp-3">
+					<DetailText className="p-2 rounded-xl line-clamp-3">
 						<p>{formatAgo(publishedAt)}</p>
 						{description}
 					</DetailText>
@@ -38,7 +38,7 @@ export default function VideoDetail() {
 			</article>
 
 			<aside className="flex basis-2/6">
-				<AsideVideos channelId={channelId} />
+				<AsideVideos videoItem={videoItem} channelId={channelId} />
 			</aside>
 		</Section>
 	);

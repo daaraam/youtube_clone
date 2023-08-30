@@ -26,7 +26,7 @@ export default class FakeYoutube {
 			.then(res => res.data.items.map(item => item.snippet.topLevelComment.snippet));
 	}
 
-	async InChannelData() {
-		return axios.get(`/youtube/inChannel.json`).then(res => res.data.items.map(item => item.snippet));
+	async GetChannelVideos() {
+		return axios.get(`/youtube/popular.json`).then(res => res.data.items.map(item => item.snippet));
 	}
 }

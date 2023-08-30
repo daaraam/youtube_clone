@@ -12,7 +12,7 @@ export default function CommentsCard({ commentItem }) {
 					<p className="font-bold">{authorDisplayName}</p>
 					<p className="text-xs font-thin opacity-80">{formatAgo(publishedAt, 'ko')}</p>
 				</div>
-				<p>{textDisplay}</p>
+				<div>{textDisplay}</div>
 			</li>
 		</ul>
 	);

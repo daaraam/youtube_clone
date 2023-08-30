@@ -59,4 +59,16 @@ export default class RealYoutube {
 			})
 			.then(res => res.data.items.map(item => item.snippet.topLevelComment.snippet));
 	}
+
+	async GetChannelVideos(channelId) {
+		return this.apiClient
+			.search({
+				params: {
+					part: 'snippet',
+					channelId: channelId,
+					type: 'video',
+				},
+			})
+			.then(res => res.data.items.map(item => item.snippet));
+	}
 }
