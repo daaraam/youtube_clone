@@ -1,0 +1,822 @@
+{
+	"kind": "youtube#searchListResponse",
+	"etag": "nmQ_u4wWrB3F0GElns9MLYbH0AY",
+	"nextPageToken": "CBgQAA",
+	"regionCode": "US",
+	"pageInfo": {
+		"totalResults": 211,
+		"resultsPerPage": 24
+	},
+	"items": [
+		{
+			"kind": "youtube#searchResult",
+			"etag": "NUIG1QDDUoOjhXXULh_HqkXmg6k",
+			"id": {
+				"kind": "youtube#playlist",
+				"playlistId": "PLMorkLyAs-inzcfwJQ8-JU6HPXRh74a19"
+			},
+			"snippet": {
+				"publishedAt": "2023-07-26T10:24:22Z",
+				"channelId": "UC0VR2v4TZeGcOrZHnmwbU_Q",
+				"title": "🍖🍗🥩육식맨 오피셜 맛랭킹",
+				"description": "인기순 정렬입니다. 실제 랭킹은 나무위키 검색해서 확인해주세요!",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/4iwfrix4oxM/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/4iwfrix4oxM/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/4iwfrix4oxM/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "육식맨 YOOXICMAN",
+				"liveBroadcastContent": "none",
+				"publishTime": "2023-07-26T10:24:22Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "HmLlbLoZJqZRYyy97frM1KGF2v0",
+			"id": {
+				"kind": "youtube#playlist",
+				"playlistId": "PLMorkLyAs-imW5ZFApgYEyaIwosgWRzTO"
+			},
+			"snippet": {
+				"publishedAt": "2020-01-20T13:46:39Z",
+				"channelId": "UC0VR2v4TZeGcOrZHnmwbU_Q",
+				"title": "육식맨의 세계요리 Global Cuisine",
+				"description": "",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/_4QkYMT2Ir4/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/_4QkYMT2Ir4/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/_4QkYMT2Ir4/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "육식맨 YOOXICMAN",
+				"liveBroadcastContent": "none",
+				"publishTime": "2020-01-20T13:46:39Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "8icvaGBmFK3vSh5XJOKUquX6U_o",
+			"id": {
+				"kind": "youtube#playlist",
+				"playlistId": "PLMorkLyAs-ikp2pOrKi7EDAbw5fNlxIyY"
+			},
+			"snippet": {
+				"publishedAt": "2019-07-29T03:42:29Z",
+				"channelId": "UC0VR2v4TZeGcOrZHnmwbU_Q",
+				"title": "육식맨 전체영상 (오래된순)",
+				"description": "",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/3kwPCRfvkns/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/3kwPCRfvkns/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/3kwPCRfvkns/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "육식맨 YOOXICMAN",
+				"liveBroadcastContent": "none",
+				"publishTime": "2019-07-29T03:42:29Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "fcPxOfichNl3UoYvAmE7TnO6sQI",
+			"id": {
+				"kind": "youtube#playlist",
+				"playlistId": "PLMorkLyAs-inM_PZBcH7U-3KDoKEZ8G8G"
+			},
+			"snippet": {
+				"publishedAt": "2019-07-29T03:45:32Z",
+				"channelId": "UC0VR2v4TZeGcOrZHnmwbU_Q",
+				"title": "육식맨 전체영상 (최신순)",
+				"description": "",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/_4QkYMT2Ir4/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/_4QkYMT2Ir4/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/_4QkYMT2Ir4/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "육식맨 YOOXICMAN",
+				"liveBroadcastContent": "none",
+				"publishTime": "2019-07-29T03:45:32Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "WO9VccBSPY01NMJmougGy-5nbmA",
+			"id": {
+				"kind": "youtube#playlist",
+				"playlistId": "PLMorkLyAs-imjd7Ra23jioyXg37ywAHhv"
+			},
+			"snippet": {
+				"publishedAt": "2022-10-12T02:24:18Z",
+				"channelId": "UC0VR2v4TZeGcOrZHnmwbU_Q",
+				"title": "푸드 트립 Food Trip",
+				"description": "",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/SXA3SVgnaFU/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/SXA3SVgnaFU/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/SXA3SVgnaFU/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "육식맨 YOOXICMAN",
+				"liveBroadcastContent": "none",
+				"publishTime": "2022-10-12T02:24:18Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "YCUSufAzV01pnIGWsFWttAD_MIA",
+			"id": {
+				"kind": "youtube#playlist",
+				"playlistId": "PLMorkLyAs-imBQ_DHNj8VxWwE6Lt2DMKd"
+			},
+			"snippet": {
+				"publishedAt": "2019-12-24T00:45:40Z",
+				"channelId": "UC0VR2v4TZeGcOrZHnmwbU_Q",
+				"title": "육식맨이 가장 좋아하는 노래 : 심혈을 기울여 간신히 엄선",
+				"description": "",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/Koz393gAwjQ/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/Koz393gAwjQ/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/Koz393gAwjQ/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "육식맨 YOOXICMAN",
+				"liveBroadcastContent": "none",
+				"publishTime": "2019-12-24T00:45:40Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "lLGaN8OepqzHkpsd3i0hy7Vq-0I",
+			"id": {
+				"kind": "youtube#channel",
+				"channelId": "UC0VR2v4TZeGcOrZHnmwbU_Q"
+			},
+			"snippet": {
+				"publishedAt": "2019-05-14T13:37:49Z",
+				"channelId": "UC0VR2v4TZeGcOrZHnmwbU_Q",
+				"title": "육식맨 YOOXICMAN",
+				"description": "고기없이 못 사는 육식주의자를 위한 본격 육식 요리 채널!!! 평범한 아파트 가정집에서 평범하지 않은 고기 요리에 도전합니다! 2019년 ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://yt3.ggpht.com/ytc/AOPolaSRh2LUVXfP5JIhx2ur6R_ry9sC0SO4DIDTvYbG=s88-c-k-c0xffffffff-no-rj-mo"
+					},
+					"medium": {
+						"url": "https://yt3.ggpht.com/ytc/AOPolaSRh2LUVXfP5JIhx2ur6R_ry9sC0SO4DIDTvYbG=s240-c-k-c0xffffffff-no-rj-mo"
+					},
+					"high": {
+						"url": "https://yt3.ggpht.com/ytc/AOPolaSRh2LUVXfP5JIhx2ur6R_ry9sC0SO4DIDTvYbG=s800-c-k-c0xffffffff-no-rj-mo"
+					}
+				},
+				"channelTitle": "육식맨 YOOXICMAN",
+				"liveBroadcastContent": "none",
+				"publishTime": "2019-05-14T13:37:49Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "fHMd4XN_pSmCycbizgpaaNc2hMM",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "Yhmr9GOWqn8"
+			},
+			"snippet": {
+				"publishedAt": "2020-03-21T08:23:02Z",
+				"channelId": "UC0VR2v4TZeGcOrZHnmwbU_Q",
+				"title": "굴라쉬 : 육식맨이 강추하는 월드 베스트 고깃국, 헝가리 전통 레시피로 도전! (구야시Gulyas, Goulash) [Eng CC]",
+				"description": "소고기 크게 썰은 국거리 1.5~2.0kg 베이컨 지방 많은 약 300g (라드 1T가 정통) 양파 큰 거 1개 마늘 5~6개 파프리카 2개 샐러리 3~4 ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/Yhmr9GOWqn8/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/Yhmr9GOWqn8/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/Yhmr9GOWqn8/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "육식맨 YOOXICMAN",
+				"liveBroadcastContent": "none",
+				"publishTime": "2020-03-21T08:23:02Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "9UR0cou2qwoSJese7u_rNraaQfw",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "_RNTucVKVVg"
+			},
+			"snippet": {
+				"publishedAt": "2020-08-02T08:15:13Z",
+				"channelId": "UC0VR2v4TZeGcOrZHnmwbU_Q",
+				"title": "베이컨 잼 : 쨈도 고기로 해 먹어야 진정한 육식의 길이지!!! 🥓🍞 [Eng CC]",
+				"description": "베이컨 900g~1kg 버터 1t 마늘 5개 양파 중간 사이즈 6개 흑설탕 4T 메이플 시럽 4T 애플 사이더 비네거 4T 쉐리 비네거 4T 버번 ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/_RNTucVKVVg/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/_RNTucVKVVg/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/_RNTucVKVVg/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "육식맨 YOOXICMAN",
+				"liveBroadcastContent": "none",
+				"publishTime": "2020-08-02T08:15:13Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "aUjsa4wFyuAryEDoPd-gy1dW5QY",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "k8x9wefxRCw"
+			},
+			"snippet": {
+				"publishedAt": "2023-08-24T09:37:09Z",
+				"channelId": "UC0VR2v4TZeGcOrZHnmwbU_Q",
+				"title": "심지어 페퍼로니까지 직접 만든 페퍼로니 피자 (Homemade Pepperoni &amp; Pizza)",
+				"description": "홈메이드 페퍼로니 오븐 레시피 Homemade Pepperoni Oven Recipe [재료 목록] 고기 1500g (돼지고기:소고기=1:1 추천, 전부 돼지 ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/k8x9wefxRCw/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/k8x9wefxRCw/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/k8x9wefxRCw/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "육식맨 YOOXICMAN",
+				"liveBroadcastContent": "none",
+				"publishTime": "2023-08-24T09:37:09Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "cQv9Y80vGsGLxsGwKdeDoGdnI4c",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "_4QkYMT2Ir4"
+			},
+			"snippet": {
+				"publishedAt": "2023-08-07T09:37:11Z",
+				"channelId": "UC0VR2v4TZeGcOrZHnmwbU_Q",
+				"title": "카르니타스 타코 : 멕시코판 모란시장 돼지부속!? 진짜 현지 길거리 타코를 집에서 만들어봤습니다. (Homemade Carnitas Tacos)",
+				"description": "국립국어원은 카르니타스 실제로는 까르니따스 [카르니타스 재료 목록] 다양하게 조합한 돼지고기 4kg (목전지, 뒷다리, 족발, 사태, ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/_4QkYMT2Ir4/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/_4QkYMT2Ir4/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/_4QkYMT2Ir4/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "육식맨 YOOXICMAN",
+				"liveBroadcastContent": "none",
+				"publishTime": "2023-08-07T09:37:11Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "WVl94Y2W-BW6B4OWyyR-eJDmxu8",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "ydz_IZWcLso"
+			},
+			"snippet": {
+				"publishedAt": "2023-06-20T09:37:13Z",
+				"channelId": "UC0VR2v4TZeGcOrZHnmwbU_Q",
+				"title": "파테 앙 크루트 : 세계에서 가장 아름다운 고기 요리. 과연 그 맛은!? (feat. 푸아그라 | 🇫🇷 Pâté en croûte)",
+				"description": "영상 초반 파테에 대한 설명 부분은 장준우 셰프님의 칼럼을 인용했습니다. (서울신문 2018-07-11 [장준우의 푸드 오디세이] 프랑스인 ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/ydz_IZWcLso/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/ydz_IZWcLso/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/ydz_IZWcLso/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "육식맨 YOOXICMAN",
+				"liveBroadcastContent": "none",
+				"publishTime": "2023-06-20T09:37:13Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "QP75_A7ZJT4uSuoeJzrsDPtKAAI",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "RO1Eu58dHKQ"
+			},
+			"snippet": {
+				"publishedAt": "2022-07-18T09:13:15Z",
+				"channelId": "UC0VR2v4TZeGcOrZHnmwbU_Q",
+				"title": "케밥의 모든 것 : 튀르키예에서 케밥만 10끼 먹은 자의 맛 탐방기 (All about Türkiye Kebap🇹🇷🥙)",
+				"description": "[육식맨 YOOXICMAN 채널 소개] 고기 없이 못 사는 육식주의자를 위한 본격 육식 요리 채널!!! 평범한 아파트 가정집에서 평범하지 ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/RO1Eu58dHKQ/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/RO1Eu58dHKQ/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/RO1Eu58dHKQ/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "육식맨 YOOXICMAN",
+				"liveBroadcastContent": "none",
+				"publishTime": "2022-07-18T09:13:15Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "6I9QwcMng1Gpg8O9CHL5Ogwrbow",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "RE-4LOMTSBU"
+			},
+			"snippet": {
+				"publishedAt": "2021-10-11T08:37:10Z",
+				"channelId": "UC0VR2v4TZeGcOrZHnmwbU_Q",
+				"title": "고든램지 버섯 그라탕 안심 스테이크 : 최저가로 누리는 극한의 사치 (Gordon Ramsay&#39;s Fillet of Beef with Mushroom Gratin)",
+				"description": "레시피 출처 : https://youtu.be/i0j_utZYyiA [육식맨 YOOXICMAN 채널 소개] 고기 없이 못 사는 육식주의자를 위한 본격 육식 요리 채널!",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/RE-4LOMTSBU/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/RE-4LOMTSBU/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/RE-4LOMTSBU/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "육식맨 YOOXICMAN",
+				"liveBroadcastContent": "none",
+				"publishTime": "2021-10-11T08:37:10Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "kVjRXtmnizjuUDQbhi1bwlI8eDU",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "3HmxP0XcoaY"
+			},
+			"snippet": {
+				"publishedAt": "2020-05-31T08:30:11Z",
+				"channelId": "UC0VR2v4TZeGcOrZHnmwbU_Q",
+				"title": "뵈프 부르기뇽 : ‘사람이 만들 수 있는 가장 맛있는 쇠고기 요리’ (Bœuf bourguignon) [Eng CC]",
+				"description": "프랑스식 소고기찜인 뵈프 부르기뇽(Bœuf bourguignon)을 만들어 봤습니다!!! 미국에서는 비프로 불러요. 브루기뇽 아니고 부르기뇽 ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/3HmxP0XcoaY/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/3HmxP0XcoaY/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/3HmxP0XcoaY/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "육식맨 YOOXICMAN",
+				"liveBroadcastContent": "none",
+				"publishTime": "2020-05-31T08:30:11Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "FgRbrAOG1FvFIlrC0Hb_Cd-mHhU",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "_FthyCtX3ao"
+			},
+			"snippet": {
+				"publishedAt": "2022-07-26T09:30:14Z",
+				"channelId": "UC0VR2v4TZeGcOrZHnmwbU_Q",
+				"title": "고든램지 프라이드 치킨 : 램지형이 치킨도 월클일까? 치킨왕국 대한민국의 기준으로 해먹어봅니다! (Gordon Ramsay&#39;s Buttermilk Fried Chicken)",
+				"description": "[재료 목록] 생닭 소금 후추 약간 튀김 기름 버터밀크 치킨 파우더 [버터 밀크 재료] (480ml로 생닭 1kg까지 커버 가능) 240ml 우유 + ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/_FthyCtX3ao/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/_FthyCtX3ao/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/_FthyCtX3ao/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "육식맨 YOOXICMAN",
+				"liveBroadcastContent": "none",
+				"publishTime": "2022-07-26T09:30:14Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "kh11nG9EtZl5RbJ5bOL9Fs8afJA",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "OTyvlQUINp4"
+			},
+			"snippet": {
+				"publishedAt": "2022-09-01T09:37:09Z",
+				"channelId": "UC0VR2v4TZeGcOrZHnmwbU_Q",
+				"title": "비어캔 베이컨 버거 : 무려 1200만 조회수가 증명하는 전설의 바베큐 버거 (Beer Can Bacon Burger by BBQ Pit Boys)",
+				"description": "[육식맨 YOOXICMAN 채널 소개] 고기 없이 못 사는 육식주의자를 위한 본격 육식 요리 채널!!! 평범한 아파트 가정집에서 평범하지 ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/OTyvlQUINp4/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/OTyvlQUINp4/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/OTyvlQUINp4/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "육식맨 YOOXICMAN",
+				"liveBroadcastContent": "none",
+				"publishTime": "2022-09-01T09:37:09Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "3XZuOnipEuAvmEkg__WXlBtYqq4",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "PlCZ169Gx_A"
+			},
+			"snippet": {
+				"publishedAt": "2021-10-28T09:37:11Z",
+				"channelId": "UC0VR2v4TZeGcOrZHnmwbU_Q",
+				"title": "베이컨 폭탄 : 무려 5,000칼로리!? 뉴욕타임스가 대서특필한 육식요리! (Bacon Explosion)",
+				"description": "베이컨 익스플로전 오리지널 포스팅 : http://www.bbqaddicts.com/recipes/pork/bacon-explosion/ - 이탈리안 소시지 레시피 ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/PlCZ169Gx_A/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/PlCZ169Gx_A/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/PlCZ169Gx_A/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "육식맨 YOOXICMAN",
+				"liveBroadcastContent": "none",
+				"publishTime": "2021-10-28T09:37:11Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "z2wGUBpFhWbeEAMfuyCKTV0BnTs",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "4alK5t57gDw"
+			},
+			"snippet": {
+				"publishedAt": "2021-03-16T09:15:14Z",
+				"channelId": "UC0VR2v4TZeGcOrZHnmwbU_Q",
+				"title": "투르네도 로시니 : 세계에서 가장 호화로운 천상계 스테이크 (Tournedos Rossini) [ENG CC]",
+				"description": "아래 2가지 제품을 협찬받아 촬영한 영상입니다. (영상에 등장한 제품을 무료 제공받았고, 추가적인 금전적 지원, 판매에 따른 커미션 ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/4alK5t57gDw/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/4alK5t57gDw/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/4alK5t57gDw/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "육식맨 YOOXICMAN",
+				"liveBroadcastContent": "none",
+				"publishTime": "2021-03-16T09:15:14Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "ZSyDkD7hn-4eUF29WYp36XmsCZw",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "MqtEzqWpMvM"
+			},
+			"snippet": {
+				"publishedAt": "2022-12-15T09:17:08Z",
+				"channelId": "UC0VR2v4TZeGcOrZHnmwbU_Q",
+				"title": "외교부 지정 여행금지국 육식 탐방기 : 이라크, 시리아, 예멘, 아프가니스탄 (카타르 현지 올로케 촬영)",
+				"description": "이 영상은 Visa의 협찬으로 제작되었습니다. 곽튜브도 포기한 여행소국 카타르에서 뽑아낸 기적의 컨텐츠 [육식맨 YOOXICMAN 채널 ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/MqtEzqWpMvM/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/MqtEzqWpMvM/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/MqtEzqWpMvM/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "육식맨 YOOXICMAN",
+				"liveBroadcastContent": "none",
+				"publishTime": "2022-12-15T09:17:08Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "a5lbNfoMmJq4vBly2y303uxWrqg",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "UvaqCgY7XDM"
+			},
+			"snippet": {
+				"publishedAt": "2022-10-11T09:37:09Z",
+				"channelId": "UC0VR2v4TZeGcOrZHnmwbU_Q",
+				"title": "독일 소시지 여행기 : 무려 900km, 6개 도시를 오가며 소세지만 열 끼 먹은 대장정 (All about German Sausages)",
+				"description": "소시지의 고향 독일에서 수많은 소시지를 맛 봤습니다. 앞으로 1년은 소시지 안 먹어도 될 듯!? 세계 최초의 소시지 : Historische ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/UvaqCgY7XDM/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/UvaqCgY7XDM/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/UvaqCgY7XDM/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "육식맨 YOOXICMAN",
+				"liveBroadcastContent": "none",
+				"publishTime": "2022-10-11T09:37:09Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "hFuqG6dUdaqNsYzPBM4_gFDwyZ4",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "aJ9XLkeYj9I"
+			},
+			"snippet": {
+				"publishedAt": "2019-10-12T11:58:55Z",
+				"channelId": "UC0VR2v4TZeGcOrZHnmwbU_Q",
+				"title": "한식도 수비드가 되나요? : 수비드 족발 만들기! (feat. 블랙커피 &amp; 쌍화탕) [Eng CC]",
+				"description": "돼지다리 2대 기준 간장 200ml 물엿 200ml 청주 400ml 양파 1개 대파 2대 마늘 한주먹 생강 손가락크기 월계수잎 너덧개 후추 ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/aJ9XLkeYj9I/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/aJ9XLkeYj9I/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/aJ9XLkeYj9I/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "육식맨 YOOXICMAN",
+				"liveBroadcastContent": "none",
+				"publishTime": "2019-10-12T11:58:55Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "YZ7Re7mai5erYH_CWHI-PH0C2lI",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "PUC_XDeYBAg"
+			},
+			"snippet": {
+				"publishedAt": "2019-11-02T10:51:44Z",
+				"channelId": "UC0VR2v4TZeGcOrZHnmwbU_Q",
+				"title": "스웨디시 미트볼 : 이케아 미트볼 좋아하신다면 이거는... 쓰러지실 겁니다!!! [Eng CC]",
+				"description": "이케아는 미트볼 먹으러 가는 거다!!! 스웨덴식 진짜 미트볼의 맛이 궁금해서 직접 만들어 봤습니다! [육식맨 YOOXICMAN 채널 소개] ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/PUC_XDeYBAg/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/PUC_XDeYBAg/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/PUC_XDeYBAg/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "육식맨 YOOXICMAN",
+				"liveBroadcastContent": "none",
+				"publishTime": "2019-11-02T10:51:44Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "_y-ADFYxJQoceESr2ad_p7gobTU",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "c5it8ttzJuY"
+			},
+			"snippet": {
+				"publishedAt": "2020-10-29T09:15:14Z",
+				"channelId": "UC0VR2v4TZeGcOrZHnmwbU_Q",
+				"title": "몽골리안 비프 : 중국인듯 몽골아닌 미국같은 너어어 🇨🇳🇲🇳🇺🇸 (PF Chang&#39;s Style Mongolian Beef) [Eng CC]",
+				"description": "오늘 영상에도 모든 식자재, 조리도구, 브랜드에 광고, 협찬 일절 없습니다. 소고기 치마살 500g (구이용이면 뭐든 가능) 대파 4대, ...",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/c5it8ttzJuY/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/c5it8ttzJuY/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/c5it8ttzJuY/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "육식맨 YOOXICMAN",
+				"liveBroadcastContent": "none",
+				"publishTime": "2020-10-29T09:15:14Z"
+			}
+		}
+	]
+}

@@ -13,4 +13,7 @@ export default class JsonYoutube {
 	async comments() {
 		return axios.get('/videos/comment.json');
 	}
+	async inChannels() {
+		return axios.get('/videos/inChannel.json');
+	}
 }

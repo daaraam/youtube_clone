@@ -32,7 +32,6 @@ export default class RealYoutube {
 				},
 			}) //
 			.then(res => {
-				console.log(res);
 				return res.data.items;
 			});
 	}

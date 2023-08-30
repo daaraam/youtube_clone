@@ -3,12 +3,12 @@ import { useNavigate } from 'react-router-dom';
 import { formatAgo } from '../util/date';
 import { ChannelBox } from './VideoCard';
 
-export default function AsideVideoCard({ videoItem }) {
-	const { thumbnails, title, channelTitle, publishedAt, channelId } = videoItem.snippet;
+export default function AsideVideoCard({ asideItem }) {
+	const { title, publishedAt, thumbnails, channelTitle } = asideItem;
 	const navigate = useNavigate();
 
 	const goDetailPage = () => {
-		navigate(`/videos/watch/${videoItem.id}`, { state: { videoItem } });
+		navigate(`/videos/watch/${asideItem.id}`, { state: { asideItem } });
 	};
 
 	return (

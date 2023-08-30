@@ -2,8 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { BsFillMicFill, BsSearch, BsYoutube } from 'react-icons/bs';
 import { GoHomeFill } from 'react-icons/go';
-import { ImDrawer, ImMusic } from 'react-icons/im';
-import { TbBrandYoutubeKids } from 'react-icons/tb';
+import { ImMusic } from 'react-icons/im';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { styled } from 'styled-components';
 import Icon from './Icon';
@@ -23,17 +22,21 @@ export default function SearchHeader() {
 		e.preventDefault();
 		navigate(`/videos/${text}`);
 	};
+	const GoHome = () => {
+		navigate('/videos');
+	};
+	const GoMusic = () => {
+		navigate('/videos/music');
+	};
 
 	useEffect(() => setText(keyword || ''), [keyword]);
 	// keyword(path로 설정해둔 params)가 변경될때마다 실행되는데, text를 keyword로 바꾸거나, keyword가 없으면 비워두기.
 
 	const menuOpenBtn = e => {
 		setMenu(true);
-		// document.body.style.overflow = 'hidden';
 	};
 	const menuCloseBtn = e => {
 		setMenu(false);
-		// document.body.style.overflow = 'unset';
 	};
 
 	return (
@@ -58,10 +61,10 @@ export default function SearchHeader() {
 									<p className="ml-2 text-xl font-bold">YouTube</p>
 								</Link>
 							</div>
-							<MenuIcon icon={<GoHomeFill />} text={'홈'} onclick={menuCloseBtn} />
-							<MenuIcon icon={<TbBrandYoutubeKids />} text={'Shorts'} onclick={menuCloseBtn} />
-							<MenuIcon icon={<ImDrawer />} text={'구독'} onclick={menuCloseBtn} />
-							<MenuIcon icon={<ImMusic />} text={'Youtube Music'} onclick={menuCloseBtn} />
+							<MenuIcon icon={<GoHomeFill />} text={'홈'} onclick={GoHome} />
+							{/* <MenuIcon icon={<TbBrandYoutubeKids />} text={'Shorts'} onclick={menuCloseBtn} /> */}
+							{/* <MenuIcon icon={<ImDrawer />} text={'마이페이지'} onclick={menuCloseBtn} /> */}
+							<MenuIcon icon={<ImMusic />} text={'Youtube Music'} onclick={GoMusic} />
 						</Bar>
 					</Container>
 				)}
@@ -86,8 +89,6 @@ export default function SearchHeader() {
 			{speech && <SpeechRecognitionApp speech={speech} setSpeech={setSpeech} />}
 
 			<div className="flex items-center justify-center gap-7">
-				{/* <Icon icon={<FaRegBell className="cursor-pointer " size={25} />} /> */}
-				{/* <RxAvatar className="cursor-pointer" size={30} /> */}
 				<User />
 			</div>
 		</BackGroundColor>

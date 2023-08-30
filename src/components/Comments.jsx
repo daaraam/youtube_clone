@@ -8,7 +8,6 @@ import { useYoutubeApi } from './Context/YoutubeApiContext';
 
 export default function Comments() {
 	const { videoId } = useParams();
-	console.log('videoId', videoId);
 
 	const { youtube } = useYoutubeApi();
 	const {
@@ -16,7 +15,6 @@ export default function Comments() {
 		error,
 		isLoading,
 	} = useQuery(['commentThreads', videoId], () => youtube.CommentData(videoId));
-	console.log('videoId', videoId);
 
 	return (
 		<div>
@@ -33,8 +31,8 @@ export default function Comments() {
 			)}
 			{comment && (
 				<ul>
-					{comment.map(commentItem => (
-						<CommentsCard key={commentItem.id} commentItem={commentItem} />
+					{comment.map((commentItem, index) => (
+						<CommentsCard key={index} commentItem={commentItem} />
 					))}
 				</ul>
 			)}

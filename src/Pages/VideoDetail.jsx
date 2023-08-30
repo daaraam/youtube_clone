@@ -10,10 +10,9 @@ export default function VideoDetail() {
 	const {
 		state: { videoItem },
 	} = useLocation();
-	console.log('videoState', videoItem);
 
-	const { title, channelId, channelTitle, description, publishedAt, id } = videoItem.snippet;
-	// 여기서 아는 정보 :
+	const { title, channelId, channelTitle, description, publishedAt } = videoItem.snippet;
+
 	return (
 		<Section className="flex flex-col px-10 gap-x-3 lg:flex-row">
 			<article className="basis-4/6">
@@ -27,14 +26,14 @@ export default function VideoDetail() {
 					frameborder="0"
 					allowFullScreen
 				/>
-				<DetailTextBox>
+				<div className="py-3">
 					<div className="w-full my-1 text-2xl font-bold line-clamp-2">{title}</div>
 					<ChannelInfo id={channelId} name={channelTitle} />
 					<DetailText expanded={true} className="p-2 rounded-xl line-clamp-3">
 						<p>{formatAgo(publishedAt)}</p>
 						{description}
 					</DetailText>
-				</DetailTextBox>
+				</div>
 				<Comments />
 			</article>
 
@@ -47,10 +46,6 @@ export default function VideoDetail() {
 
 const Section = styled.section`
 	color: var(--color-txt);
-`;
-
-const DetailTextBox = styled.div`
-	padding-bottom: 3rem;
 `;
 
 const DetailText = styled.div`

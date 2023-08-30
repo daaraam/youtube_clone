@@ -25,4 +25,8 @@ export default class FakeYoutube {
 			.get(`/youtube/comment.json`)
 			.then(res => res.data.items.map(item => item.snippet.topLevelComment.snippet));
 	}
+
+	async InChannelData() {
+		return axios.get(`/youtube/inChannel.json`).then(res => res.data.items.map(item => item.snippet));
+	}
 }

@@ -25,6 +25,7 @@ export function login() {
 
 export function logout() {
 	signOut(auth).catch(console.error);
+	window.location.reload();
 }
 
 export function userStateChange(callback) {
