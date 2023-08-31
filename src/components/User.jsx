@@ -26,7 +26,6 @@ export default function User() {
 				) : (
 					<RxAvatar onClick={login} className="cursor-pointer" size={30} />
 				)}
-				{/* {user && <button onClick={logout}>Logout</button>} */}
 			</div>
 
 			<div>{info && <UserInfo logout={logout} userInfoClose={userInfoClose} />}</div>

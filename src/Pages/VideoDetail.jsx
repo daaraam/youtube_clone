@@ -16,12 +16,12 @@ export default function VideoDetail() {
 	return (
 		<Section className="flex flex-col px-10 gap-x-3 lg:flex-row">
 			<article className="basis-4/6">
-				<iframe
+				<Iframe
 					className="rounded-xl"
 					id="player"
 					type="text/html"
 					width="100%"
-					height="500"
+					height="520"
 					src={`https://www.youtube.com/embed/${videoItem.id}?autoplay=1`}
 					frameBorder="0"
 					allowFullScreen
@@ -56,4 +56,9 @@ const DetailText = styled.div`
 	transition: height 0.3s ease;
 	height: 5.8rem;
 	padding: 1rem;
+`;
+const Iframe = styled.iframe`
+	@media (max-width: 600px) {
+		height: 30vh;
+	}
 `;

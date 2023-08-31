@@ -61,8 +61,8 @@ const SpeechBar = styled.div`
 	justify-content: space-around;
 	align-items: center;
 	background-color: var(--color-bg);
-	width: 30rem;
-	height: 25rem;
+	width: 50vw;
+	height: 30vh;
 	padding: 2vw;
 	position: fixed;
 	top: 0.5rem;
@@ -74,9 +74,9 @@ const SpeechBar = styled.div`
 const CloseBtn = styled.span`
 	position: fixed;
 	display: flex;
-	width: 30rem;
 	justify-content: flex-end;
 	top: 0;
+	width: 50vw;
 	padding: 0.5rem;
 `;
 
