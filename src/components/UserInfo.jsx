@@ -47,9 +47,9 @@ const Container = styled.div`
 const Bar = styled.div`
 	position: fixed;
 	right: 50px;
-	bottom: 433px;
+	/* bottom: 433px; */
 	width: 21rem;
-	height: 14rem;
+	/* height: 14rem; */
 	display: flex;
 	flex-direction: column;
 	padding: 0.5rem;

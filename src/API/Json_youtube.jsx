@@ -27,6 +27,8 @@ export default class FakeYoutube {
 	}
 
 	async GetChannelVideos() {
-		return axios.get(`/youtube/popular.json`).then(res => res.data.items.map(item => item.snippet));
+		return axios
+			.get(`/youtube/search.json`) //
+			.then(res => res.data.items.map(item => ({ ...item, id: item.id.videoId })));
 	}
 }
