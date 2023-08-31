@@ -9,9 +9,7 @@ import styles from './Loading.module.css';
 export default function Videos() {
 	const { keyword } = useParams();
 	const { youtube } = useYoutubeApi();
-	const { isLoading, error, data } = useQuery(['videos', keyword], () => youtube.search(keyword), {
-		staleTime: 1000 * 60 * 2,
-	});
+	const { isLoading, error, data } = useQuery(['videos', keyword], () => youtube.search(keyword));
 
 	return (
 		<BackGroundColor>
@@ -30,7 +28,6 @@ export default function Videos() {
 				<ul className="grid grid-cols-1 gap-2 gap-y-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-col-5">
 					{data.map(videoItem => (
 						<VideoCard key={videoItem.id} videoItem={videoItem} />
-						// 이렇게 map을 다른 컴포넌트에다가 뿌려주는게 가능하다!
 					))}
 				</ul>
 			)}

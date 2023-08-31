@@ -38,7 +38,7 @@ export default function VideoDetail() {
 			</article>
 
 			<aside className="flex basis-2/6">
-				<AsideVideos videoItem={videoItem} channelId={channelId} />
+				<AsideVideos channelId={channelId} />
 			</aside>
 		</Section>
 	);

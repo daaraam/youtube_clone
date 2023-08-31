@@ -1,19 +1,15 @@
 import React from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { formatAgo } from '../util/date';
 import { ChannelBox } from './VideoCard';
 
-export default function AsideVideoCard({ channelVideoItem, videoItem }) {
-	const { title, publishedAt, thumbnails, channelTitle } = channelVideoItem;
+export default function AsideVideoCard({ channel }) {
+	const { title, publishedAt, thumbnails, channelTitle } = channel.snippet;
 	const navigateDetail = useNavigate();
 
-	const { videoId } = useParams();
-
 	const AsideVideoDetailPage = () => {
-		navigateDetail(`/videos`);
+		navigateDetail(`/videos/watch/${channel.id}`);
 	};
-	console.log('videoId', videoId);
-	console.log('videoItem', videoItem);
 
 	return (
 		<li onClick={() => AsideVideoDetailPage()} className="flex px-1 py-1 cursor-pointer">

@@ -7,35 +7,6 @@ export default class RealYoutube {
 		return keyword ? this.#searchByKeyword(keyword) : this.#mostPopular();
 	}
 
-	async #searchByKeyword(keyword) {
-		return this.apiClient
-			.search({
-				params: {
-					part: 'snippet',
-					maxResults: 1,
-					type: 'video',
-					// 이걸 안넣으면 채널을 걸러주지 않음
-					q: keyword,
-				},
-			}) //
-			.then(res => res.data.items)
-			.then(items => items.map(item => ({ ...item, id: item.id.videoId })));
-	}
-
-	async #mostPopular() {
-		return this.apiClient
-			.videos({
-				params: {
-					part: 'snippet',
-					maxResults: 1,
-					chart: 'mostPopular',
-				},
-			}) //
-			.then(res => {
-				return res.data.items;
-			});
-	}
-
 	async ChannelImageURL(id) {
 		return this.apiClient
 			.channels({
@@ -67,8 +38,34 @@ export default class RealYoutube {
 					part: 'snippet',
 					channelId: channelId,
 					type: 'video',
+					maxResults: 12,
 				},
 			})
-			.then(res => res.data.items.map(item => item.snippet));
+			.then(res => res.data.items.map(item => ({ ...item, id: item.id.videoId })));
+	}
+
+	async #searchByKeyword(keyword) {
+		return this.apiClient
+			.search({
+				params: {
+					part: 'snippet',
+					maxResults: 12,
+					type: 'video',
+					q: keyword,
+				},
+			}) //
+			.then(res => res.data.items.map(item => ({ ...item, id: item.id.videoId })));
+	}
+
+	async #mostPopular() {
+		return this.apiClient
+			.videos({
+				params: {
+					part: 'snippet',
+					maxResults: 12,
+					chart: 'mostPopular',
+				},
+			}) //
+			.then(res => res.data.items);
 	}
 }

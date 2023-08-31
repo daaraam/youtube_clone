@@ -4,19 +4,25 @@ import { styled } from 'styled-components';
 import { formatAgo } from '../util/date';
 import ChannelInfo from './ChannelInfo';
 
-export default function VideoCard({ videoItem }) {
+export default function VideoCard({ videoItem, type }) {
 	const { thumbnails, title, channelTitle, publishedAt, channelId } = videoItem.snippet;
-	const navigateDetail = useNavigate();
-
-	const goDetailPage = () => {
-		navigateDetail(`/videos/watch/${videoItem.id}`, { state: { videoItem } });
-	};
+	const navigate = useNavigate();
+	const isList = type === 'list';
 
 	return (
-		<li onClick={() => goDetailPage()} className="cursor-pointer">
-			<img className="w-full rounded-xl" src={thumbnails.medium.url} alt={title} />
+		<li
+			onClick={() => {
+				navigate(`/videos/watch/${videoItem.id}`, { state: { videoItem } });
+			}}
+			className={isList ? 'flex px-1 py-1 cursor-pointer' : ''}
+		>
+			<img
+				className={isList ? 'w-2/4 rounded-md' : 'w-full rounded-xl'}
+				src={thumbnails.medium.url}
+				alt={title}
+			/>
 			<div className="flex w-full">
-				<ChannelImage>
+				<ChannelImage className={isList ? 'hidden' : ''}>
 					<ChannelInfo id={channelId} />
 				</ChannelImage>
 				<ChannelBox>
