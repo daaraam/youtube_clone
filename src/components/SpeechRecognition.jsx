@@ -6,8 +6,8 @@ import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognitio
 import { styled } from 'styled-components';
 import Icon from './Icon';
 
-const SpeechRecognitionApp = ({ speech, setSpeech }) => {
-	const { transcript, listening, browserSupportsSpeechRecognition } = useSpeechRecognition();
+const SpeechRecognitionApp = ({ setSpeech }) => {
+	const { transcript, listening } = useSpeechRecognition();
 
 	const speechSearchToggle = () => {
 		setSpeech(prevState => !prevState);
@@ -45,7 +45,6 @@ const Container = styled.div`
 	position: fixed;
 	display: flex;
 	justify-content: space-around;
-	/* align-items: center; */
 	left: 0;
 	top: 0;
 	width: 100%;
