@@ -22,7 +22,7 @@ export default function VideoDetail() {
 					type="text/html"
 					width="100%"
 					height="500"
-					src={`http://www.youtube.com/embed/${videoItem.id}?autoplay=1`}
+					src={`https://www.youtube.com/embed/${videoItem.id}?autoplay=1`}
 					frameBorder="0"
 					allowFullScreen
 					title={title}
