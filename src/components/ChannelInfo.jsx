@@ -5,7 +5,11 @@ import { useYoutubeApi } from './Context/YoutubeApiContext';
 
 export default function ChannelInfo({ id, name }) {
 	const { youtube } = useYoutubeApi();
-	const { data: url, error, isLoading } = useQuery(['channel', id], () => youtube.ChannelImageURL(id));
+	const {
+		data: url,
+		error,
+		isLoading,
+	} = useQuery(['channel', id], () => youtube.ChannelImageURL(id), { staleTime: 1000 * 60 * 5 });
 
 	return (
 		<div>
@@ -23,7 +27,7 @@ export default function ChannelInfo({ id, name }) {
 					/>
 				)}
 				{url && <Img src={url} alt={name} />}
-				<p>{name}</p>
+				<div>{name}</div>
 			</Channel>
 		</div>
 	);

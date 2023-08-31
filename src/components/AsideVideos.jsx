@@ -12,7 +12,7 @@ export default function AsideVideos({ channelId }) {
 		data: channelVideos,
 		error,
 		isLoading,
-	} = useQuery(['getVideo', channelId], () => youtube.GetChannelVideos(channelId));
+	} = useQuery(['getVideo', channelId], () => youtube.GetChannelVideos(channelId),{ staleTime: 1000 * 60 * 5 });
 
 	return (
 		<div>

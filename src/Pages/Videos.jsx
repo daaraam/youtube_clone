@@ -9,7 +9,9 @@ import styles from './Loading.module.css';
 export default function Videos() {
 	const { keyword } = useParams();
 	const { youtube } = useYoutubeApi();
-	const { isLoading, error, data } = useQuery(['videos', keyword], () => youtube.search(keyword));
+	const { isLoading, error, data } = useQuery(['videos', keyword], () => youtube.search(keyword), {
+		staleTime: 1000 * 60 * 5,
+	});
 
 	return (
 		<BackGroundColor>

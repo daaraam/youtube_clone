@@ -14,7 +14,7 @@ export default function Comments() {
 		data: comment,
 		error,
 		isLoading,
-	} = useQuery(['commentThreads', videoId], () => youtube.CommentData(videoId));
+	} = useQuery(['commentThreads', videoId], () => youtube.CommentData(videoId), { staleTime: 1000 * 60 * 1 });
 
 	return (
 		<div>

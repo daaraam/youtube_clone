@@ -24,7 +24,7 @@ const SpeechRecognitionApp = ({ speech, setSpeech }) => {
 				<CloseBtn>
 					<Icon icon={<AiOutlineClose size={25} />} onClick={speechSearchToggle} />
 				</CloseBtn>
-				<p>{transcript}</p>
+				<div>{transcript}</div>
 				{listening ? (
 					<Listening>
 						<BsFillMicFill onClick={SpeechRecognition.startListening} size={40} />
@@ -32,9 +32,7 @@ const SpeechRecognitionApp = ({ speech, setSpeech }) => {
 				) : (
 					<Icon icon={<BsFillMicFill size={40} />} onClick={SpeechRecognition.startListening} />
 				)}
-				<p>{listening ? '듣는 중!' : '마이크를 탭하세요.'}</p>
-				{/* 검색버튼 대신에 일정시간이 지나면 
-                자동으로 handleSpeechResult 함수가 실행되게 하는법..? */}
+				<div>{listening ? '듣는 중!' : '마이크를 탭하세요.'}</div>
 				<button onClick={handleSpeechResult}>검색</button>
 			</SpeechBar>
 		</Container>
