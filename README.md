@@ -7,23 +7,19 @@
 ## ✏ 사용언어
 - React
 - JavaScript 
-- CSS
-- HTML
+- CSS / HTML
 
 ## 📦 사용 패키지 · 라이브러리
 - tanstack/react-query
 - react-router-dom
-- axios
-- firebase
 - react-speech-recognition
-- timeago.js
-- react-uuid
 - styled-componenets
 - tailwindcss
 - react-icons
 
 
 ## 📁 사용 API   
+- firebase
 [YOUTUBE API](https://developers.google.com/youtube/v3)
 - VIDEOS
 - SEARCH
